@@ -2,12 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { tnds2025Photos } from "../Pages/_tnds2025Photos";
-import {
-  fadeUp,
-  scaleIn,
-  staggerContainer,
-  viewportOnce,
-} from "../common/motionVariants";
+import { fadeUp, scaleIn, viewportOnce } from "../common/motionVariants";
 import TicketWhite from "../assets/images/ticket-white.webp";
 import TicketBlack from "../assets/images/ticket-black.webp";
 
@@ -47,18 +42,15 @@ const TNDS2025HighlightsContent = () => {
         </div>
 
         <div className="container pb-5">
-          <motion.div
-            className="row g-3 tnds25-grid"
-            variants={staggerContainer}
-            initial="hidden"
-            whileInView="show"
-            viewport={viewportOnce}
-          >
+          <div className="row g-3 tnds25-grid">
             {tnds2025Photos.map((file, i) => (
               <motion.div
                 className="col-lg-4 col-md-6 col-6"
                 key={file}
                 variants={scaleIn}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: true, amount: 0.1 }}
               >
                 <div className="tnds25-tile">
                   <img
@@ -69,7 +61,7 @@ const TNDS2025HighlightsContent = () => {
                 </div>
               </motion.div>
             ))}
-          </motion.div>
+          </div>
         </div>
 
         <div className="container py-5">
