@@ -490,45 +490,26 @@ const HomeContent = () => {
             </motion.div>
           </motion.div>
           <motion.div
-            className="row gap-5 justify-content-center"
-            variants={staggerContainer}
+            className="row justify-content-center"
+            variants={fadeUp}
             initial="hidden"
             whileInView="show"
             viewport={viewportOnce}
           >
-            <motion.div className="col-lg-5" variants={fadeUp}>
-              <div>
-                <h5 className="highlight-text">Highlights from TNDS 2025</h5>
-                <iframe
-                  style={{ borderRadius: "20px" }}
-                  width="100%"
-                  height="325"
-                  src="https://www.youtube.com/embed/msMaCxeLlSw?si=xcbK8OcqpPcN5rbw"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                ></iframe>
-              </div>
-            </motion.div>
-
-            <motion.div className="col-lg-5" variants={fadeUp}>
-              <div>
-                <h5 className="highlight-text">Guest Stories from TNDS 2025</h5>
-                <iframe
-                  style={{ borderRadius: "20px" }}
-                  width="100%"
-                  height="325"
-                  src="https://www.youtube.com/embed/XlDKvL40sds?si=923QZj-QrPZ5O0TE"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                ></iframe>
-              </div>
-            </motion.div>
+            <div className="col-lg-8">
+              <h5 className="highlight-text">Highlights from TNDS 2025</h5>
+              <iframe
+                style={{ borderRadius: "20px" }}
+                width="100%"
+                height="460"
+                src="https://www.youtube.com/embed/BJykdUpIslc?si=srrld3sAHoEyjhbv"
+                title="Highlights from TNDS 2025"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
+            </div>
           </motion.div>
         </div>
       </div>
