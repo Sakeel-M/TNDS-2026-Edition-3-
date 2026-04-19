@@ -697,6 +697,10 @@
 .ab-imgs {
   width: 100%;
   height: auto;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 18px;
+  display: block;
 }
 .ab-img-text {
   position: absolute;

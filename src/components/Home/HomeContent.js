@@ -31,29 +31,30 @@ const HomeContent = () => {
   // const [ref4, inView4] = useInView(options);
   // const [ref5, inView5] = useInView(options);
 
+  const PUBLIC = process.env.PUBLIC_URL;
   const absImg = [
     {
-      img: require("../../assets/images/ab1.webp"),
+      img: `${PUBLIC}/tnds-2025-highlights/_CP31499.jpg`,
       name: "Keynote Speeches",
     },
     {
-      img: require("../../assets/images/ab2.webp"),
+      img: `${PUBLIC}/tnds-2025-highlights/_CP14856.jpg`,
       name: "Expert Talks",
     },
     {
-      img: require("../../assets/images/ab3.webp"),
+      img: `${PUBLIC}/tnds-2025-highlights/${encodeURIComponent("_TP11707.jpg")}`,
       name: "Panel Discussions",
     },
     {
-      img: require("../../assets/images/ab4.webp"),
+      img: `${PUBLIC}/tnds-2025-highlights/${encodeURIComponent("_TP11651.jpg")}`,
       name: "Fireside Chats",
     },
     {
-      img: require("../../assets/images/ab5.webp"),
+      img: `${PUBLIC}/tnds-2025-highlights/CP204966.JPG`,
       name: "Networking",
     },
     {
-      img: require("../../assets/images/ab6.webp"),
+      img: `${PUBLIC}/tnds-2025-highlights/CP205298.JPG`,
       name: "Awards Night",
     },
   ];
