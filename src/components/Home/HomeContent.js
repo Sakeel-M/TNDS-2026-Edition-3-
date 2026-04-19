@@ -443,9 +443,9 @@ const HomeContent = () => {
             <motion.div className="col-lg-4 col-md-12 mt-auto" variants={fadeUp}>
               <div className="d-flex">
                 <img
-                  className="recap-center-img recap25-photo"
-                  src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/TP200902.jpg`}
-                  alt="TNDS 2025"
+                  className="recap-center-img"
+                  src={require("../../assets/images/recap/eagle-trophy.png")}
+                  alt="Social Eagle Trophy"
                 />
               </div>
             </motion.div>
