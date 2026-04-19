@@ -7,10 +7,6 @@ import { useNavigate } from "react-router-dom";
 import TicketWhite from "../../assets/images/ticket-white.webp";
 import TicketBlack from "../../assets/images/ticket-black.webp";
 import SpeakersLineup from "./SpeakersLineup";
-import OwlCarousel from "react-owl-carousel3";
-import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel/dist/assets/owl.theme.default.css";
-import HorizontalScrollSection from "./HorizontalScrollSection";
 import {
   fadeUp,
   fadeIn,
@@ -33,30 +29,12 @@ const HomeContent = () => {
 
   const PUBLIC = process.env.PUBLIC_URL;
   const absImg = [
-    {
-      img: `${PUBLIC}/tnds-2025-highlights/_CP31499.jpg`,
-      name: "Keynote Speeches",
-    },
-    {
-      img: `${PUBLIC}/tnds-2025-highlights/_CP14856.jpg`,
-      name: "Expert Talks",
-    },
-    {
-      img: `${PUBLIC}/tnds-2025-highlights/${encodeURIComponent("_TP11707.jpg")}`,
-      name: "Panel Discussions",
-    },
-    {
-      img: `${PUBLIC}/tnds-2025-highlights/${encodeURIComponent("_TP11651.jpg")}`,
-      name: "Fireside Chats",
-    },
-    {
-      img: `${PUBLIC}/tnds-2025-highlights/CP204966.JPG`,
-      name: "Networking",
-    },
-    {
-      img: `${PUBLIC}/tnds-2025-highlights/CP205298.JPG`,
-      name: "Awards Night",
-    },
+    { img: `${PUBLIC}/tnds-2025-highlights/${encodeURIComponent("_TP11629.jpg")}` },
+    { img: `${PUBLIC}/tnds-2025-highlights/TP109909.jpg` },
+    { img: `${PUBLIC}/tnds-2025-highlights/TP109940.jpg` },
+    { img: `${PUBLIC}/tnds-2025-highlights/TP201309.jpg` },
+    { img: `${PUBLIC}/tnds-2025-highlights/TP201460.jpg` },
+    { img: `${PUBLIC}/tnds-2025-highlights/TP201693.jpg` },
   ];
 
   const coreCommittee = [
@@ -360,7 +338,6 @@ const HomeContent = () => {
                   >
                     <div className="position-relative">
                       <img className="ab-imgs" src={item?.img} alt="" />
-                      <h6 className="ab-img-text">{item?.name}</h6>
                     </div>
                   </motion.div>
                 );
