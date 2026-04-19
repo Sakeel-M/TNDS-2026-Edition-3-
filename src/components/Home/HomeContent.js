@@ -803,54 +803,6 @@ const HomeContent = () => {
                             className="core-card-subtext h-auto  text-small"
                             dangerouslySetInnerHTML={{ __html: item?.pos }}
                           ></p>
-                          <div className="social-media-organize-sec">
-                            <div className="d-flex justify-content-center gap-3">
-                              {item.insta && (
-                                <div>
-                                  <a
-                                    className="our-team-sm-redirect text-light"
-                                    href={item.insta}
-                                    target="_blank" rel="noreferrer"
-                                  >
-                                    <i class="fa-brands small fa-instagram"></i>
-                                  </a>
-                                </div>
-                              )}
-                              {item.facebook && (
-                                <div>
-                                  <a
-                                    className="our-team-sm-redirect text-light"
-                                    href={item.facebook}
-                                    target="_blank" rel="noreferrer"
-                                  >
-                                    <i class="fa-brands small fa-facebook"></i>
-                                  </a>
-                                </div>
-                              )}
-                              {item.linkedin && (
-                                <div>
-                                  <a
-                                    className="our-team-sm-redirect text-light"
-                                    href={item.linkedin}
-                                    target="_blank" rel="noreferrer"
-                                  >
-                                    <i class="fa-brands small fa-linkedin-in"></i>
-                                  </a>
-                                </div>
-                              )}
-                              {item.youtube && (
-                                <div>
-                                  <a
-                                    className="our-team-sm-redirect text-light"
-                                    href={item.youtube}
-                                    target="_blank" rel="noreferrer"
-                                  >
-                                    <i class="fa-brands small fa-youtube"></i>
-                                  </a>
-                                </div>
-                              )}
-                            </div>
-                          </div>
                         </div>
                       </motion.div>
                     );

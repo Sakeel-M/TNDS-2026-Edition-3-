@@ -107,7 +107,7 @@ const SpeakersLineup = () => {
     },
     {
       id: 10,
-      img: require("../../assets/images/speakers/s9.webp"),
+      img: `${process.env.PUBLIC_URL}/sudharsanan.webp`,
       name: "Sudharsanan Ganapathy",
       pos: "Founder, SGI Collective",
       para: "",
