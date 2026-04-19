@@ -6,6 +6,7 @@ import Home from "./Pages/Home";
 import Awards from "./Pages/Awards";
 import Agenda from "./Pages/Agenda";
 import Gallery from "./Pages/Gallery";
+import TNDS2025Highlights from "./Pages/TNDS2025Highlights";
 import ThankYouPage from "./Pages/ThankYouPage";
 import { pageTransition } from "./common/motionVariants";
 
@@ -28,6 +29,7 @@ const AnimatedRoutes = () => {
         <Route path="/Ticket" element={<AnimatedPage><Ticket /></AnimatedPage>} />
         <Route path="/Awards" element={<AnimatedPage><Awards /></AnimatedPage>} />
         <Route path="/Agenda" element={<AnimatedPage><Agenda /></AnimatedPage>} />
+        <Route path="/TNDS2025Highlights" element={<AnimatedPage><TNDS2025Highlights /></AnimatedPage>} />
         <Route path="/TNDS2024Highlights" element={<AnimatedPage><Gallery /></AnimatedPage>} />
         <Route path="/ThankYouPage" element={<AnimatedPage><ThankYouPage /></AnimatedPage>} />
       </Routes>

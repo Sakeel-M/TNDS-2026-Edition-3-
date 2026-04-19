@@ -73,6 +73,11 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
+                <NavLink className="nav-link "  to="/TNDS2025Highlights">
+                TNDS 2025 Highlights
+                </NavLink>
+              </li>
+              <li className="nav-item">
                 <NavLink className="nav-link "  to="/TNDS2024Highlights">
                 TNDS 2024 Highlights
                 </NavLink>
