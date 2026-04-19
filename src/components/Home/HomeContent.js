@@ -187,18 +187,6 @@ const HomeContent = () => {
       linkedin: "https://www.linkedin.com/company/socialeagle/",
     },
     {
-      img: require("../../assets/images/o4.webp"),
-      img2: require("../../assets/images/eo4.webp"),
-      name: "Sudharsanan Ganapathy",
-      pos: "Founder - The Social Company",
-      insta: "https://www.instagram.com/sudharsananganapathy/?hl=en",
-      youtube:
-        "https://www.youtube.com/results?search_query=sudharsanan+ganapathy",
-      facebook: "https://www.facebook.com/sudharsananganapathy",
-      linkedin:
-        "https://www.linkedin.com/in/sudharsananganapathy/?originalSubdomain=in",
-    },
-    {
       img: require("../../assets/images/o5.webp"),
       img2: require("../../assets/images/eo5.webp"),
       name: "Shatheeshram Ganapathy",
@@ -207,6 +195,24 @@ const HomeContent = () => {
         "https://www.instagram.com/shatheeshramganapathy/?igsh=MW5nYzc4Nmh3OXJvdQ%3D%3D#",
       facebook: "https://www.facebook.com/shatheeshram?mibextid=ZbWKwL",
       linkedin: "https://www.linkedin.com/in/shatheeshram-ganapathy-a7476473/",
+    },
+    {
+      img: `${process.env.PUBLIC_URL}/Akshaya_Image.png`,
+      img2: `${process.env.PUBLIC_URL}/Akshaya_Image.png`,
+      name: "Akshaya",
+      pos: "Manager - Systems and Processes, Social Eagle",
+      insta: "",
+      facebook: "",
+      linkedin: "",
+    },
+    {
+      img: `${process.env.PUBLIC_URL}/Archana_Image.jpeg`,
+      img2: `${process.env.PUBLIC_URL}/Archana_Image.jpeg`,
+      name: "Archana",
+      pos: "Head - New Initiatives, Social Eagle",
+      insta: "",
+      facebook: "",
+      linkedin: "",
     },
   ];
   const [selectedOranizer, setSelectedOrganizer] = useState(
