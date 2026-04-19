@@ -1,0 +1,150 @@
+.Gallery-head{
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: "ClashDisplay-Regular";
+}
+.Gallery-head1{
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    font-size: 25px;
+    font-weight: 500;
+    /* border: 1px solid black; */
+}
+.Gallery-heading-section {
+    position: relative;
+    width: max-content;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    margin-bottom: -55px;
+  }
+  .Gallery-design-img {
+    width: 35px;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    right: -13%;
+  }
+  .Gallery-img{
+    border-radius: 6px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .Gallery-border{
+    padding: 5px 25px;
+    border: 1px solid rgb(109, 105, 105);
+    border-radius: 35px;
+  }
+  .py-head{
+    padding-top: 3rem !important;
+    padding-bottom: 2rem !important;
+  }
+  .bg-img{
+    /* padding-top: 80px; */
+    /* padding-bottom: 60px; */
+    background-image: url("../src/assets/images/for-whom-bg.webp");
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* awards */
+  .awards-page{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url("../src/assets/images/for-whom-bg.webp");
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .award-best{
+    background: radial-gradient(50% 50% at 50% 50%, #071DA7 0%, #030B41 100%);
+    padding: 40px 30px;
+    color: #ffff;
+    justify-content: center;
+    font-family: "ClashDisplay-Regular";
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .award-img{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    bottom: 8%;
+    left: 10%;
+  }
+  .award-card{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175); 
+    margin-bottom: 1.25rem; 
+    /* font-family: "Manrope-Regular"; */
+    font-size:15px;
+    font-weight: 700;
+    text-align: center;
+    border: 2.77px solid #E4E4E4;
+  }
+  .award-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  .card-img{
+    width: 100px;
+    height: auto;
+    margin-top: -90px;
+  }
+  .py-award{
+    padding-top:6rem!important;
+    padding-bottom: 6rem!important;
+  }
+  .cardpt{
+    padding-top: 20px
+  }
+  .award-btn {
+    padding: 12px 20px 12px;
+    border: none;
+    outline: none;
+    position: relative;
+    border-radius: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+    z-index: 1;
+    color: #000;
+    background: linear-gradient(90deg, #fce701 0%, #f18301 100%);
+    /* border: 1px solid #fce701; */
+    font-size: 14px;
+    font-family: "ClashDisplay-Regular"!important;
+    font-weight: 700;
+  }
+  .award-btn span{
+    font-family: "ClashDisplay-Regular"!important;
+  }
+  .award-btn:hover{
+    background: radial-gradient(50% 50% at 50% 50%, #071DA7 0%, #030B41 100%);
+    color: white;
+  }
+  .award-btn:hover .figure .ticket-white {
+    opacity: 1;
+  }
+  .award-btn:hover .figure .ticket-black {
+    opacity: 0;
+  }
+  .pyagency{
+    padding-top: 5rem!important;
+    padding-bottom: 5rem!important;
+  }

@@ -1,0 +1,602 @@
+@media screen and (min-width: 1400px) {
+  .ticket-page p {
+    font-size: 18px;
+    margin-top: 0px;
+  }
+  .silver-ticket-flex {
+    margin-bottom: 25px;
+  }
+  .btn-buy-ticket {
+    font-size: 18px;
+    padding: 12px 30px;
+  }
+  .ticket-page-heading {
+    font-size: 65px;
+  }
+  .ticket-page-sub-heading {
+    font-size: 25px;
+  }
+  .banner-heading {
+    font-size: 62px;
+  }
+  .nav-btn,
+  .banner-btn,
+  .speaker-btn {
+    font-size: 16px;
+  }
+  .big-btn {
+    font-size: 25px;
+  }
+  .ticket-white {
+    margin-top: 1px;
+  }
+  .big-btn .ticket-white {
+    width: 28px;
+    margin-top: 4px;
+  }
+  .big-btn .ticket-black {
+    width: 28px;
+  }
+  .figure {
+    margin-right: 10px;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 18px;
+  }
+  .speaker-btn {
+    padding: 8px 35px 6px;
+  }
+  .count-heading {
+    font-size: 38px;
+  }
+  .count-para {
+    font-size: 16px;
+  }
+  .about-small-heading {
+    font-size: 48px;
+  }
+  .about-big-heading {
+    font-size: 54px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .ab-img-text {
+    font-size: 18px;
+  }
+  .quote-content {
+    font-size: 24px;
+  }
+  .recap-center-img {
+    width: 205px;
+  }
+  .highlight-text {
+    font-size: 32px;
+  }
+  .text-significance-heading {
+    font-size: 54px;
+  }
+  .learn-content {
+    font-size: 18px;
+  }
+  .signi-text {
+    font-size: 18px;
+  }
+  .signi-card {
+    padding: 12px;
+  }
+  .core-card-text {
+    font-size: 18px;
+  }
+  .text-small {
+    font-size: 15px;
+  }
+  .our-team-sm-redirect {
+    font-size: 20px;
+  }
+  .get-ready-df-text {
+    font-size: 52px;
+  }
+  .core-card-subtext {
+    font-size: 14px;
+  }
+  .h-speakers-lineup-heading {
+    height: 45px;
+  }
+  .h-speakers-lineup {
+    height: 40px;
+  }
+  .org-team-card-2-img {
+    width: 100px;
+  }
+  .event-organizer .bg-blue-gradient {
+    padding-top: 80px !important;
+    padding-bottom: 50px !important;
+  }
+  .organizer-side-img {
+    width: 350px;
+  }
+  .h-speakers-lineup {
+    height: 30px;
+  }
+  .hilton-loc-text {
+    font-size: 24px;
+  }
+  .hilton-para {
+    font-size: 18px;
+  }
+  .ticket-footer-link {
+    font-size: 18px;
+  }
+  .banner-rounded-content span {
+    font-size: 24px;
+  }
+  .table-heading {
+    font-size: 18px;
+  }
+  .table-para-content {
+    font-size: 16px;
+  }
+  .table-yellow-content {
+    font-size: 16px;
+  }
+  .label-text {
+    font-size: 18px;
+  }
+  .form-control {
+    font-size: 16px;
+  }
+  .btn-anim-contact {
+    font-size: 18px;
+  }
+  .footer-heading {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .banner-heading {
+    font-size: 42px;
+  }
+  .ticket-page p {
+    font-size: 14px;
+    margin-top: 3px;
+  }
+  .silver-ticket-flex {
+    margin-bottom: 12px;
+  }
+  .btn-buy-ticket {
+    font-size: 14px;
+    padding: 10px 25px;
+  }
+  .btn-container {
+    padding-top: 20px;
+  }
+  .crown-width {
+    width: 110px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 14px;
+  }
+  .banner-heading {
+    font-size: 32px;
+  }
+  .banner-logo {
+    width: 80px;
+  }
+  .recap-center-img {
+    width: 145px;
+  }
+  .learn-content {
+    font-size: 14px;
+  }
+  .footer-heading {
+    font-size: 32px;
+  }
+  .ticket-footer-link {
+    font-size: 13px;
+  }
+  .ticket-tnds-logo {
+    width: 150px;
+  }
+  .concept-created-text {
+    font-size: 14px;
+  }
+  .signi-text {
+    font-size: 12px;
+  }
+  .organizer-side-img {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .ticket-page p {
+    font-size: 18px;
+    margin-top: 0px;
+  }
+  .banner-heading {
+    font-size: 28px;
+  }
+  .banner-rounded-content span {
+    font-size: 16px;
+  }
+  .live-in-content {
+    font-size: 15px;
+  }
+  .scroll-banner-logos {
+    width: 150px !important;
+  }
+  .count-home-sec {
+    margin-bottom: 20px;
+  }
+  .quote-left {
+    left: 0%;
+  }
+  .recap-heading-section {
+    margin-bottom: 30px;
+  }
+  .recap-center-img {
+    width: 245px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .owlcard-organizer {
+    margin-top: 40px;
+  }
+  .hilton-bg {
+    padding: 30px;
+  }
+  .cardgap {
+    gap: 6rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .ticket-page p {
+    font-size: 18px;
+    margin-top: 1px;
+  }
+  .home-banner-section {
+    margin-top: 80px;
+  }
+  .awards-page {
+    padding-top: 70px;
+    padding-bottom: 10px;
+  }
+  .award-best {
+    font-size: 25px;
+  }
+  .cardgap {
+    gap: 0px;
+  }
+  .count-colun {
+    display: none;
+  }
+  .single-box {
+    padding: 10px 20px 0px;
+  }
+  .flex-align-center {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  .ticket-page p {
+    font-size: 24px;
+    margin-top: -4px;
+  }
+  .ticket-buy-icon {
+    width: 28px;
+  }
+  .silver-ticket-flex {
+    margin-bottom: 35px;
+  }
+  .btn-buy-ticket {
+    font-size: 22px;
+    padding: 15px 40px;
+  }
+  .btn-container {
+    padding-top: 85px;
+  }
+  .ticket-heading {
+    font-size: 35px;
+  }
+  .ticket-amount-heading {
+    font-size: 50px;
+  }
+  .crown-width {
+    width: 140px;
+  }
+  .design-img-pos {
+    top: 0;
+    width: 45px;
+  }
+  .Modal-View {
+    width: 95%;
+  }
+  .agenda-table-overflow {
+    overflow-x: auto;
+  }
+  .table-para-content {
+    text-wrap: nowrap;
+  }
+  .agenda-table-bg {
+    padding-top: 0px;
+  }
+  .cardgap {
+    gap: 6rem;
+  }
+  .cardpt {
+    font-size: 20px;
+  }
+  .award-best {
+    padding-left: 120px;
+  }
+  .award-img {
+    width: 19%;
+    bottom: 8%;
+    left: 6%;
+  }
+  .organizer-side-img {
+    width: 100%;
+    margin-bottom: -14%;
+    position: static;
+  }
+  .event-organizer-card-2 {
+    margin-bottom: 30px;
+  }
+  .event-organizer .significance-design-img {
+    top: -35%;
+    right: -17%;
+  }
+  .th-cnt-thank {
+    padding: 35px 35px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .banner-rounded-content span {
+    font-size: 12px;
+  }
+  .home-banner-section {
+    margin-top: 90px;
+  }
+  .banner-logo {
+    display: none;
+  }
+  .banner-heading {
+    font-size: 20px;
+  }
+  .live-in-content {
+    font-size: 10px;
+  }
+  .live-in-content::before,
+  .live-in-content::after {
+    width: 30px;
+  }
+  .live-in-content::before {
+    margin-right: 8px;
+  }
+  .live-in-content::after {
+    margin-left: 8px;
+  }
+  .md-scroll-section {
+    display: none;
+  }
+  .banner-btn {
+    padding: 6px 18px 4px;
+    font-size: 12px;
+  }
+  .speaker-btn {
+    padding: 5px 18px 5px;
+    font-size: 12px;
+  }
+  .design-img-pos {
+    top: -45px;
+  }
+  .quote-content {
+    font-size: 18px;
+  }
+  .br-tag {
+    display: none;
+  }
+  .quote-left {
+    top: -33%;
+  }
+  .quote-right {
+    bottom: -30%;
+    right: 5%;
+  }
+  .recap-heading {
+    font-size: 25px;
+  }
+  .recap-design-img {
+    top: -82%;
+    right: -10%;
+  }
+  .text-significance-heading {
+    font-size: 25px;
+  }
+  .text-the-heading {
+    font-size: 25px;
+  }
+  .significance-design-img {
+    top: -80%;
+    right: -17%;
+  }
+  .get-ready-df-text {
+    font-size: 25px;
+  }
+  .team-open-card-modal {
+    width: 250px !important;
+    margin: auto;
+  }
+  .design-what-you-learn {
+    left: 10%;
+    width: 55px;
+  }
+  .big-btn {
+    margin-top: 25px;
+  }
+  .footer-heading {
+    font-size: 20px;
+  }
+  .res-footer-list {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  .footerdesign1 {
+    display: none;
+  }
+  .footerdesign2 {
+    display: none;
+  }
+  .recap-center-img {
+    width: 170px;
+  }
+  .header-logo {
+    width: 120px;
+  }
+  .banner-rounded-content {
+    padding: 6px 20px;
+    margin-bottom: 10px;
+  }
+  .about-big-heading {
+    font-size: 35px;
+  }
+  .about-small-heading {
+    font-size: 30px;
+  }
+  .recape-section {
+    padding-bottom: 10px;
+  }
+  .signi-text {
+    font-size: 15px;
+  }
+  .signi-card {
+    margin-bottom: 15px;
+  }
+  .mb-70 {
+    margin-bottom: 50px;
+  }
+  .owl-item.center .core-card-text {
+    font-size: 18px;
+  }
+  .owl-item.center .core-card-subtext {
+    font-size: 15px;
+  }
+  .our-team-sm-redirect {
+    font-size: 22px;
+  }
+  .owl-item.center .event-organizer-card {
+    padding: 10px;
+  }
+  .core-card-text {
+    font-size: 16px;
+    height: auto;
+  }
+  .h-speakers-lineup {
+    height: auto;
+    font-size: 14px;
+  }
+  .row-reverse-mob {
+    flex-direction: column-reverse;
+  }
+  .modal-body .team-open-card-modal {
+    margin-top: -70px;
+    display: flex;
+  }
+  .border-bottom-radius {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom: 1px solid #000;
+    padding: 8px;
+  }
+  .border-top-radius {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 8px;
+  }
+  .scroll-banner-logos {
+    width: 210px !important;
+  }
+}
+@media screen and (max-width: 460px) {
+  .ticket-page-heading {
+    font-size: 50px;
+  }
+  .ticket-page-sub-heading {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  .ticket-page {
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+  .ticket-page p {
+    font-size: 18px;
+    margin-top: 2px;
+  }
+  .silver-ticket-flex {
+    margin-bottom: 15px;
+  }
+  .faq-section {
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+  .ticket-tnds-logo {
+    width: 250px;
+  }
+  .ticket-list-footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+  }
+  .btn-container {
+    padding-top: 40px;
+  }
+  .btn-buy-ticket {
+    font-size: 15px;
+    padding: 13px 40px;
+  }
+  .crown-width {
+    width: 120px;
+  }
+  .exclusive-text-heading {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .ticket-page p {
+    font-size: 16px;
+    margin-top: 3px;
+  }
+  .silver-ticket-flex {
+    margin-bottom: 15px;
+  }
+  .ticket-page-heading {
+    font-size: 45px;
+  }
+  .award-best {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .ticket-page-heading {
+    font-size: 30px;
+  }
+  .exclusive-text-heading {
+    font-size: 24px;
+  }
+  .award-best {
+    font-size: 21px;
+  }
+  .pyagency {
+    padding-bottom: 0rem !important;
+  }
+  .awards-page {
+    padding-bottom: 40px;
+  }
+}

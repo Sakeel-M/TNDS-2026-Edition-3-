@@ -1,0 +1,34 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# editor / OS
+.vscode/
+.idea/
+Thumbs.db
+__MACOSX/
+
+# scratch
+_excel_dump.txt
+.claude/
+TNDS Website Content.xlsx
+TNDS 2026 Logo PNG-02.png
