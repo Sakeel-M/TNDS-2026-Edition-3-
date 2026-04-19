@@ -2,8 +2,7 @@ import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import AwardsBanner from "../components/Awards/AwardsBanner";
-import AwardsContent from "../components/Awards/AwardsContent";
+import ComingSoon from "../components/ComingSoon";
 import TimerSection from "../common/TimerSection";
 
 const Awards = () => {
@@ -17,8 +16,7 @@ const Awards = () => {
   return (
     <div className=''>
       <Navbar />
-      <AwardsBanner />
-      <AwardsContent />
+      <ComingSoon title="Eagle Awards" />
       <Footer />
       <TimerSection />
     </div>

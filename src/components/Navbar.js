@@ -73,11 +73,6 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link "  to="/PartnerWithUs">
-                  Partner With Us
-                </NavLink>
-              </li>
-              <li className="nav-item">
                 <NavLink className="nav-link "  to="/TNDS2024Highlights">
                 TNDS 2024 Highlights
                 </NavLink>

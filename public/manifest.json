@@ -3,17 +3,17 @@
   "name": "TN DIGITAL SUMMIT 2026 | EDITION 3",
   "icons": [
     {
-      "src": "tnds-2026-logo.png",
+      "src": "favicon.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/png"
     },
     {
-      "src": "tnds-2026-logo.png",
+      "src": "favicon.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "tnds-2026-logo.png",
+      "src": "favicon.png",
       "type": "image/png",
       "sizes": "512x512"
     }
