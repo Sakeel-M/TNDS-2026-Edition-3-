@@ -401,7 +401,7 @@ const HomeContent = () => {
               src={require("../../assets/images/recap/recap-design.webp")}
               alt=""
             />
-            <h2 className="recap-heading">Recap TNDS 2024</h2>
+            <h2 className="recap-heading">Recap TNDS 2025</h2>
           </motion.div>
           <motion.div
             className="row mb-70"
@@ -489,7 +489,7 @@ const HomeContent = () => {
           >
             <motion.div className="col-lg-5" variants={fadeUp}>
               <div>
-                <h5 className="highlight-text">Highlights from TNDS 2024</h5>
+                <h5 className="highlight-text">Highlights from TNDS 2025</h5>
                 <iframe
                   style={{ borderRadius: "20px" }}
                   width="100%"
@@ -506,7 +506,7 @@ const HomeContent = () => {
 
             <motion.div className="col-lg-5" variants={fadeUp}>
               <div>
-                <h5 className="highlight-text">Guest Stories from TNDS 2024</h5>
+                <h5 className="highlight-text">Guest Stories from TNDS 2025</h5>
                 <iframe
                   style={{ borderRadius: "20px" }}
                   width="100%"
