@@ -1688,6 +1688,27 @@
     cursor: pointer;
   }
 
+/* --- Speaker card: lock photo area to uniform aspect --- */
+.img-top-team {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: contain;
+  object-position: center bottom;
+  display: block;
+  background: transparent;
+}
+
+/* --- Organiser thumbnails rendered from raw portrait photos --- */
+.org-thumb-photo {
+  width: 90px !important;
+  height: 90px !important;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fdc300;
+  background: #fff;
+  padding: 2px;
+}
+
 /* --- Motion polish: smooth card hover + button transitions --- */
 .core-com-card,
 .signi-card,

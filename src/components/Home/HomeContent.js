@@ -204,6 +204,7 @@ const HomeContent = () => {
       insta: "",
       facebook: "",
       linkedin: "",
+      circle: true,
     },
     {
       img: `${process.env.PUBLIC_URL}/Archana_Image.jpeg`,
@@ -213,6 +214,7 @@ const HomeContent = () => {
       insta: "",
       facebook: "",
       linkedin: "",
+      circle: true,
     },
   ];
   const [selectedOranizer, setSelectedOrganizer] = useState(
@@ -791,7 +793,7 @@ const HomeContent = () => {
                         onMouseLeave={() => setSelectedOrganizer(item?.img)}
                       >
                         <img
-                          className="org-team-card-2-img"
+                          className={`org-team-card-2-img${item?.circle ? " org-thumb-photo" : ""}`}
                           src={item?.img2}
                           alt={""}
                         />
