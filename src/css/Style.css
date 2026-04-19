@@ -1725,6 +1725,18 @@
   transform: translateY(-3px);
 }
 
+/* --- Home recap grid: 2025 photo polish --- */
+.recap25-photo {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 14px;
+  display: block;
+}
+.recap-center-img.recap25-photo {
+  aspect-ratio: 3 / 4;
+  border-radius: 18px;
+}
+
 /* --- TNDS 2025 Highlights gallery: uniform tiles --- */
 .tnds25-grid {
   align-items: stretch;

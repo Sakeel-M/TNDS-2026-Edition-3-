@@ -414,28 +414,28 @@ const HomeContent = () => {
               <div className="row g-3">
                 <div className="col-lg-7 col-md-7 col-7">
                   <img
-                    className="w-100 h-auto mb-3"
-                    src={require("../../assets/images/recap/r1.webp")}
-                    alt=""
+                    className="w-100 h-auto mb-3 recap25-photo"
+                    src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/_CP14854.jpg`}
+                    alt="TNDS 2025"
                   />
                   <img
-                    className="w-100 h-auto"
-                    src={require("../../assets/images/recap/r2.webp")}
-                    alt=""
+                    className="w-100 h-auto recap25-photo"
+                    src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/CP200292.jpg`}
+                    alt="TNDS 2025"
                   />
                 </div>
                 <div className="col-lg-5 col-md-5 col-5 mt-auto">
                   <img
-                    className="w-100 h-auto"
-                    src={require("../../assets/images/recap/r3.webp")}
-                    alt=""
+                    className="w-100 h-auto recap25-photo"
+                    src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/_CP30362.jpg`}
+                    alt="TNDS 2025"
                   />
                 </div>
                 <div className="col-lg-12 col-md-12 col-12">
                   <img
-                    className="w-100 h-auto"
-                    src={require("../../assets/images/recap/r4.webp")}
-                    alt=""
+                    className="w-100 h-auto recap25-photo"
+                    src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/TP109047.jpg`}
+                    alt="TNDS 2025"
                   />
                 </div>
               </div>
@@ -443,9 +443,9 @@ const HomeContent = () => {
             <motion.div className="col-lg-4 col-md-12 mt-auto" variants={fadeUp}>
               <div className="d-flex">
                 <img
-                  className="recap-center-img "
-                  src={require("../../assets/images/recap/r9.webp")}
-                  alt=""
+                  className="recap-center-img recap25-photo"
+                  src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/TP200902.jpg`}
+                  alt="TNDS 2025"
                 />
               </div>
             </motion.div>
@@ -453,28 +453,28 @@ const HomeContent = () => {
               <div className="row g-3">
                 <div className="col-lg-5 col-md-5 col-5 mt-auto">
                   <img
-                    className="w-100 h-auto"
-                    src={require("../../assets/images/recap/r6.webp")}
-                    alt=""
+                    className="w-100 h-auto recap25-photo"
+                    src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/_CP14859.jpg`}
+                    alt="TNDS 2025"
                   />
                 </div>
                 <div className="col-lg-7 col-md-7 col-7">
                   <img
-                    className="w-100 h-auto mb-3"
-                    src={require("../../assets/images/recap/r5.webp")}
-                    alt=""
+                    className="w-100 h-auto mb-3 recap25-photo"
+                    src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/CP200744.jpg`}
+                    alt="TNDS 2025"
                   />
                   <img
-                    className="w-100 h-auto"
-                    src={require("../../assets/images/recap/r7.webp")}
-                    alt=""
+                    className="w-100 h-auto recap25-photo"
+                    src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/TP200647.jpg`}
+                    alt="TNDS 2025"
                   />
                 </div>
                 <div className="col-lg-12 col-md-12 col-12">
                   <img
-                    className="w-100 h-auto"
-                    src={require("../../assets/images/recap/r8.webp")}
-                    alt=""
+                    className="w-100 h-auto recap25-photo"
+                    src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/TP200757.jpg`}
+                    alt="TNDS 2025"
                   />
                 </div>
               </div>
