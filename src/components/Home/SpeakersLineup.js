@@ -37,7 +37,7 @@ const SpeakersLineup = () => {
     },
     {
       id: 3,
-      img: require("../../assets/images/speakers/s1.webp"),
+      img: `${process.env.PUBLIC_URL}/erode-mahesh.png`,
       name: "Erode Mahesh",
       pos: "Anchor, Educator &<br/> Motivational Speaker",
       para: "",
@@ -47,7 +47,7 @@ const SpeakersLineup = () => {
     },
     {
       id: 4,
-      img: require("../../assets/images/speakers/s4.webp"),
+      img: `${process.env.PUBLIC_URL}/${encodeURIComponent("Derby Vijay Kapoor.png")}`,
       name: "Vijay Kapoor",
       pos: "Founder & MD,<br/> Derby Jeans Community",
       para: "",
@@ -67,7 +67,7 @@ const SpeakersLineup = () => {
     },
     {
       id: 6,
-      img: require("../../assets/images/speakers/s6.webp"),
+      img: `${process.env.PUBLIC_URL}/${encodeURIComponent("Hema Rakesh.png")}`,
       name: "Hema Rakesh",
       pos: "Digital Journalist, Anchor",
       para: "",
@@ -77,7 +77,7 @@ const SpeakersLineup = () => {
     },
     {
       id: 7,
-      img: require("../../assets/images/speakers/s7.webp"),
+      img: `${process.env.PUBLIC_URL}/Khantini.png`,
       name: "Khantini Vijayakumar",
       pos: "Entrepreneur & Psychologist",
       para: "",
