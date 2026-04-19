@@ -801,7 +801,7 @@ const HomeContent = () => {
                                   <a
                                     className="our-team-sm-redirect text-light"
                                     href={item.insta}
-                                    target="_blank"
+                                    target="_blank" rel="noreferrer"
                                   >
                                     <i class="fa-brands small fa-instagram"></i>
                                   </a>
@@ -812,7 +812,7 @@ const HomeContent = () => {
                                   <a
                                     className="our-team-sm-redirect text-light"
                                     href={item.facebook}
-                                    target="_blank"
+                                    target="_blank" rel="noreferrer"
                                   >
                                     <i class="fa-brands small fa-facebook"></i>
                                   </a>
@@ -823,7 +823,7 @@ const HomeContent = () => {
                                   <a
                                     className="our-team-sm-redirect text-light"
                                     href={item.linkedin}
-                                    target="_blank"
+                                    target="_blank" rel="noreferrer"
                                   >
                                     <i class="fa-brands small fa-linkedin-in"></i>
                                   </a>
@@ -834,7 +834,7 @@ const HomeContent = () => {
                                   <a
                                     className="our-team-sm-redirect text-light"
                                     href={item.youtube}
-                                    target="_blank"
+                                    target="_blank" rel="noreferrer"
                                   >
                                     <i class="fa-brands small fa-youtube"></i>
                                   </a>
@@ -925,7 +925,7 @@ const HomeContent = () => {
                                 <a
                                   className="core-comi-redirect"
                                   href={item?.insta}
-                                  target="_blank"
+                                  target="_blank" rel="noreferrer"
                                 >
                                   <i class="fa-brands fa-instagram"></i>
                                 </a>
@@ -934,7 +934,7 @@ const HomeContent = () => {
                                 <a
                                   className="core-comi-redirect"
                                   href={item?.facebook}
-                                  target="_blank"
+                                  target="_blank" rel="noreferrer"
                                 >
                                   <i class="fa-brands fa-facebook"></i>
                                 </a>
@@ -943,7 +943,7 @@ const HomeContent = () => {
                                 <a
                                   className="core-comi-redirect"
                                   href={item?.linkedin}
-                                  target="_blank"
+                                  target="_blank" rel="noreferrer"
                                 >
                                   <i class="fa-brands fa-linkedin-in"></i>
                                 </a>

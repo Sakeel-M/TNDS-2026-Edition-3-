@@ -6,9 +6,6 @@ import Img1 from "../assets/images/ticket/img1.webp";
 import Img2 from "../assets/images/ticket/img2.webp";
 import Img3 from "../assets/images/ticket/img3.webp";
 import TndsLogo from "../assets/images/tnds-2026-logo.png";
-import SELogo from "../assets/images/ticket/se-logo.webp";
-import CallIcon from "../assets/images/ticket/call.webp";
-import EnvelopIcon from "../assets/images/ticket/envelop.webp";
 import { Link } from "react-router-dom";
 import SoldOut from "../assets/images/ticket/sold_out.webp";
 import {

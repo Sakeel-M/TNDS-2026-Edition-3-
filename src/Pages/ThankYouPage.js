@@ -21,7 +21,7 @@ const ThankYouPage = () => {
 
                     <a
                       href="https://www.instagram.com/tndigitalsummit/?igsh=dnRsaGgxZ2RxajVk"
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                       className="d-flex thnk-page-follow align-items-center"
                     >
                       <h5 className=" gradient-text-thankyou mt-1 mb-0">

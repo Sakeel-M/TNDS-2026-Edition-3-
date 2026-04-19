@@ -178,7 +178,7 @@ const SpeakersLineup = () => {
                               <a
                                 className="core-comi-redirect"
                                 href={item?.insta}
-                                target="_blank"
+                                target="_blank" rel="noreferrer"
                               >
                                 <i class="fa-brands fs-6 fa-instagram"></i>
                               </a>
@@ -187,7 +187,7 @@ const SpeakersLineup = () => {
                               <a
                                 className="core-comi-redirect"
                                 href={item?.facebook}
-                                target="_blank"
+                                target="_blank" rel="noreferrer"
                               >
                                 <i class="fa-brands fs-6 fa-facebook"></i>
                               </a>
@@ -196,7 +196,7 @@ const SpeakersLineup = () => {
                               <a
                                 className="core-comi-redirect"
                                 href={item?.linkedin}
-                                target="_blank"
+                                target="_blank" rel="noreferrer"
                               >
                                 <i class="fa-brands fs-6 fa-linkedin-in"></i>
                               </a>
@@ -231,7 +231,7 @@ const SpeakersLineup = () => {
                           <a
                             className="our-team-sm-redirect"
                             href={currentItem.insta}
-                            target="_blank"
+                            target="_blank" rel="noreferrer"
                           >
                             <i class="fa-brands fs-5 fa-instagram"></i>
                           </a>
@@ -242,7 +242,7 @@ const SpeakersLineup = () => {
                           <a
                             className="our-team-sm-redirect"
                             href={currentItem.facebook}
-                            target="_blank"
+                            target="_blank" rel="noreferrer"
                           >
                             <i class="fa-brands fs-5 fa-facebook"></i>
                           </a>
@@ -253,7 +253,7 @@ const SpeakersLineup = () => {
                           <a
                             className="our-team-sm-redirect"
                             href={currentItem.linkedin}
-                            target="_blank"
+                            target="_blank" rel="noreferrer"
                           >
                             <i class="fa-brands fs-5 fa-linkedin-in"></i>
                           </a>

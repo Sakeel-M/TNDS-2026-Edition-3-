@@ -7,13 +7,11 @@ import { scrollToSection } from "../common/utills";
 const Navbar = () => {
     const navigate = useNavigate();
 
-    const [navSize, setnavSize] = useState("5rem");
     const [navColor, setnavColor] = useState("transparent");
     const [navBorder, setnavBorder] = useState("transparent");
     const listenScrollEvent = () => {
       window.scrollY > 10 ? setnavColor("rgb(7 29 167 / 44%)") : setnavColor("transparent");
       window.scrollY > 10 ? setnavBorder("#c7c7c7b8") : setnavColor("transparent");
-      window.scrollY > 10 ? setnavSize("4rem") : setnavSize("5rem");
     };
     useEffect(() => {
       window.addEventListener("scroll", listenScrollEvent);
@@ -30,9 +28,9 @@ const Navbar = () => {
           backdropFilter:navColor === "transparent" ? "blur(0px)" : "blur(5px)",
         }} className="navbar navbar-expand-lg navbar-dark">
         <div style={{borderBottom: navBorder === "transparent" ? `1px solid #c7c7c7b8` : " 1px solid transparent"}} className="container nav-container">
-          <a className="navbar-brand" href="#">
+          <NavLink className="navbar-brand" to="/">
             <img className="header-logo" src={Logo} alt="" />
-          </a>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
@@ -85,7 +83,7 @@ const Navbar = () => {
                 </NavLink>
               </li>
               {/* <li className="nav-item">
-                <a className="nav-link " target="_blank"  href="https://tndigitalsummit.com/2024">
+                <a className="nav-link " target="_blank" rel="noreferrer"  href="https://tndigitalsummit.com/2024">
                   TNDS 2024
                 </a>
               </li> */}

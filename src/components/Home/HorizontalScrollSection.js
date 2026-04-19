@@ -126,7 +126,7 @@ export default function HorizontalScrollSection() {
                                   <a
                                     className="our-team-sm-redirect"
                                     href={item.insta}
-                                    target="_blank"
+                                    target="_blank" rel="noreferrer"
                                   >
                                     <i class="fa-brands small fa-instagram"></i>
                                   </a>
@@ -137,7 +137,7 @@ export default function HorizontalScrollSection() {
                                   <a
                                     className="our-team-sm-redirect"
                                     href={item.facebook}
-                                    target="_blank"
+                                    target="_blank" rel="noreferrer"
                                   >
                                     <i class="fa-brands small fa-facebook"></i>
                                   </a>
@@ -148,7 +148,7 @@ export default function HorizontalScrollSection() {
                                   <a
                                     className="our-team-sm-redirect"
                                     href={item.linkedin}
-                                    target="_blank"
+                                    target="_blank" rel="noreferrer"
                                   >
                                     <i class="fa-brands small fa-linkedin-in"></i>
                                   </a>

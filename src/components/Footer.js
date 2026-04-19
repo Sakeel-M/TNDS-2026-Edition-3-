@@ -77,7 +77,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="https://www.instagram.com/tndigitalsummit/"
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                       className="social_media"
                     >
                       <motion.div className="" whileHover={{ scale: 1.15 }} transition={{ duration: 0.2 }}>
@@ -88,7 +88,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="https://www.youtube.com/@socialeagleofficial1155"
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                       className="social_media"
                     >
                       <motion.div className="" whileHover={{ scale: 1.15 }} transition={{ duration: 0.2 }}>
@@ -99,7 +99,7 @@ const Footer = () => {
                   <li>
                     <a
                       href="https://www.linkedin.com/company/socialeagle/"
-                      target="_blank"
+                      target="_blank" rel="noreferrer"
                       className="social_media"
                     >
                       <motion.div className="" whileHover={{ scale: 1.15 }} transition={{ duration: 0.2 }}>
@@ -198,7 +198,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <a target="_blank"
+                    <a target="_blank" rel="noreferrer"
                       className="footer-redirect"
                       href="https://tndigitalsummit.com/2024"
                       onClick={scrollToTop}
