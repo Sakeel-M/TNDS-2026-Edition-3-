@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import Video from "../../assets/videos/banner-video.mp4";
 import Location from "../../assets/images/location.webp";
@@ -12,7 +12,6 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { scrollToSection } from "../../common/utills";
 import TimerSection from "../../common/TimerSection";
 import BannerTimer from "../../common/BannerTimer";
-import SponsorsModal from "../../common/SponsorsModel";
 
 const EASE = [0.22, 0.61, 0.36, 1];
 const bannerItem = (delay) => ({
@@ -22,13 +21,11 @@ const bannerItem = (delay) => ({
 const HomeBanner = () => {
   const navigate = useNavigate();
   const location = useLocation();
-  const [buyTicketModal, setBuyTicketModal] = useState(false);
   useEffect(() => {
     const { search } = location;
     if (!search) {
       window.scroll(0, 0);
     }
-    setBuyTicketModal(true);
   }, []);
   const ourLogos = [
     {
@@ -323,12 +320,6 @@ const HomeBanner = () => {
         </div>
       </div>
       <TimerSection />
-      <SponsorsModal
-          open={buyTicketModal}
-          setOpen={() => {
-            setBuyTicketModal(false);
-          }}
-        />
     </>
   );
 };

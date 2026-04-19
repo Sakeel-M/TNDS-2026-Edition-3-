@@ -48,7 +48,7 @@ const TNDS2025HighlightsContent = () => {
 
         <div className="container pb-5">
           <motion.div
-            className="row g-3"
+            className="row g-3 tnds25-grid"
             variants={staggerContainer}
             initial="hidden"
             whileInView="show"
@@ -60,12 +60,13 @@ const TNDS2025HighlightsContent = () => {
                 key={file}
                 variants={scaleIn}
               >
-                <img
-                  className="Gallery-img"
-                  src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/${encode(file)}`}
-                  alt={`TNDS 2025 highlight ${i + 1}`}
-                  loading="lazy"
-                />
+                <div className="tnds25-tile">
+                  <img
+                    src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/${encode(file)}`}
+                    alt={`TNDS 2025 highlight ${i + 1}`}
+                    loading="lazy"
+                  />
+                </div>
               </motion.div>
             ))}
           </motion.div>

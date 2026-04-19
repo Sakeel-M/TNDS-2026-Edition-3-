@@ -1725,6 +1725,33 @@
   transform: translateY(-3px);
 }
 
+/* --- TNDS 2025 Highlights gallery: uniform tiles --- */
+.tnds25-grid {
+  align-items: stretch;
+}
+.tnds25-tile {
+  position: relative;
+  width: 100%;
+  padding-top: 66.66%; /* 3:2 aspect ratio */
+  overflow: hidden;
+  border-radius: 14px;
+  background: #0a0a0a;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+.tnds25-tile img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease, filter 0.4s ease;
+  display: block;
+}
+.tnds25-tile:hover img {
+  transform: scale(1.05);
+  filter: brightness(1.05);
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
