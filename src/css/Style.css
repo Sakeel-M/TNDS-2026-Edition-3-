@@ -1805,9 +1805,8 @@
 }
 .bento-row-b {
   grid-template-columns: 2fr 1fr;
-  align-items: center;
 }
-.bento-left-stack {
+.bento-stack {
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -1825,7 +1824,7 @@
   inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   transition: transform 0.35s ease, filter 0.35s ease;
 }
 .bento-tile:hover img {

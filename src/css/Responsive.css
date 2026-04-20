@@ -608,7 +608,4 @@
   .bento-row-b {
     grid-template-columns: 1fr;
   }
-  .bento-left-stack {
-    flex-direction: column;
-  }
 }
