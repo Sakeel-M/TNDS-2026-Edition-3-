@@ -42,14 +42,15 @@ const TNDS2025HighlightsContent = () => {
         </div>
 
         <div className="container pb-5">
-          <div className="bento-grid">
-            {tnds2025Photos.map((file, i) => {
-              const pattern = ["bento-sm", "bento-sm", "bento-wide", "bento-wide", "bento-sq"];
-              const cls = pattern[i % pattern.length];
-              return (
+          <div className="bento-wrapper">
+            {(() => {
+              const chunks = [];
+              for (let i = 0; i < tnds2025Photos.length; i += 5) {
+                chunks.push(tnds2025Photos.slice(i, i + 5));
+              }
+              const Tile = ({ file, idx }) => (
                 <motion.div
-                  className={`bento-tile ${cls}`}
-                  key={file}
+                  className="bento-tile"
                   variants={scaleIn}
                   initial="hidden"
                   whileInView="show"
@@ -57,12 +58,43 @@ const TNDS2025HighlightsContent = () => {
                 >
                   <img
                     src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/${encode(file)}`}
-                    alt={`TNDS 2025 highlight ${i + 1}`}
+                    alt={`TNDS 2025 highlight ${idx + 1}`}
                     loading="lazy"
                   />
                 </motion.div>
               );
-            })}
+              return chunks.map((chunk, ci) => (
+                <div className="bento-cycle" key={ci}>
+                  {(chunk[0] || chunk[1] || chunk[2]) && (
+                    <div className="bento-row bento-row-a">
+                      <div className="bento-left-stack">
+                        {chunk[0] && <Tile file={chunk[0]} idx={ci * 5} />}
+                        {chunk[1] && <Tile file={chunk[1]} idx={ci * 5 + 1} />}
+                      </div>
+                      {chunk[2] && (
+                        <div className="bento-col-big">
+                          <Tile file={chunk[2]} idx={ci * 5 + 2} />
+                        </div>
+                      )}
+                    </div>
+                  )}
+                  {(chunk[3] || chunk[4]) && (
+                    <div className="bento-row bento-row-b">
+                      {chunk[3] && (
+                        <div className="bento-col-big">
+                          <Tile file={chunk[3]} idx={ci * 5 + 3} />
+                        </div>
+                      )}
+                      {chunk[4] && (
+                        <div className="bento-col-sq">
+                          <Tile file={chunk[4]} idx={ci * 5 + 4} />
+                        </div>
+                      )}
+                    </div>
+                  )}
+                </div>
+              ));
+            })()}
           </div>
         </div>
 

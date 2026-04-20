@@ -1785,11 +1785,31 @@
   filter: brightness(1.05);
 }
 
-/* --- TNDS 2025 Highlights bento mosaic --- */
-.bento-grid {
+/* --- TNDS 2025 Highlights bento mosaic (16:9 tiles) --- */
+.bento-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.bento-cycle {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.bento-row {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: 180px;
+  gap: 16px;
+}
+.bento-row-a {
+  grid-template-columns: 1fr 2fr;
+}
+.bento-row-b {
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+}
+.bento-left-stack {
+  display: flex;
+  flex-direction: column;
   gap: 16px;
 }
 .bento-tile {
@@ -1798,6 +1818,7 @@
   border-radius: 20px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
   background: #0b1126;
+  aspect-ratio: 16 / 9;
 }
 .bento-tile img {
   position: absolute;
@@ -1811,9 +1832,6 @@
   transform: scale(1.05);
   filter: brightness(1.05);
 }
-.bento-sm   { grid-column: span 2; grid-row: span 1; }
-.bento-wide { grid-column: span 2; grid-row: span 2; }
-.bento-sq   { grid-column: span 2; grid-row: span 2; }
 
 @media (prefers-reduced-motion: reduce) {
   *,
