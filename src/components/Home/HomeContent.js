@@ -921,12 +921,10 @@ const HomeContent = () => {
               </motion.div>
               <motion.div className="col-lg-8 my-auto" variants={fadeUp}>
                 <div>
-                  <h5 className="learn-content text-light mb-3">
-                    Operators. Builders. Founders who've done the work.
-                  </h5>
                   <h5 className="learn-content text-light">
-                    Each speaker is handpicked for their ability to deliver
-                    high-signal insights, no fluff, no filler.
+                    Every speaker on this stage has scaled a company, shipped a
+                    product or changed an industry. You’ll hear about what
+                    worked and what didn’t.
                   </h5>
                 </div>
               </motion.div>
