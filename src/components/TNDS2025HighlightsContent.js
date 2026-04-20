@@ -42,6 +42,24 @@ const TNDS2025HighlightsContent = () => {
         </div>
 
         <div className="container pb-5">
+          <motion.div
+            className="highlights-video-wrap mx-auto"
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="show"
+            viewport={viewportOnce}
+          >
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/BJykdUpIslc?rel=0"
+              title="TNDS 2025 Highlights"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </motion.div>
+        </div>
+
+        <div className="container pb-5">
           <div className="bento-wrapper">
             {(() => {
               const chunks = [];

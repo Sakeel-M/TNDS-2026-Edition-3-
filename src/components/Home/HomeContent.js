@@ -1087,7 +1087,7 @@ const HomeContent = () => {
                     </div>
                     <div className="bg-hub-text mb-4">
                       <h5 className="hilton-loc-text">
-                        A Rising Hub for Digital Innovation
+                        A Rising Hub for AI Innovation
                       </h5>
                     </div>
                     <p className="hilton-para">
@@ -1100,7 +1100,7 @@ const HomeContent = () => {
                       <br className="br-tag" />
                       facilities with the energy of one of India’s
                       fastest-growing
-                      <br className="br-tag" /> digital ecosystems.
+                      <br className="br-tag" /> AI ecosystems.
                     </p>
                   </div>
                 </motion.div>

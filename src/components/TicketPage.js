@@ -509,7 +509,7 @@ const TicketPage = () => {
                       aria-expanded="false"
                       aria-controls="collapseTwo"
                     >
-                      Who is TN Digital Summit 2026 for?
+                      For Whom?
                     </button>
                   </h2>
                   <div
@@ -521,34 +521,25 @@ const TicketPage = () => {
                     <div className="accordion-body">
                       <ul>
                         <li className="mb-2">
-                          <span>Digital Marketers & Sales Professionals</span>
+                          <span>Business Owners building with AI</span>
                         </li>
                         <li className="mb-2">
-                          <span>
-                            Business Oweners who want to scale using Digital
-                            platforms
-                          </span>
+                          <span>Founders moving into scalable systems</span>
                         </li>
                         <li className="mb-2">
-                          <span>Digital Agencies</span>
+                          <span>Coaches & Consultants going digital-first</span>
                         </li>
                         <li className="mb-2">
-                          <span>Coaches & Consultants</span>
+                          <span>Content Creators building a business leveraging AI</span>
                         </li>
                         <li className="mb-2">
-                          <span>Digital Aspirants & Enthusiasts</span>
+                          <span>Community Members ready to level up using AI</span>
                         </li>
                         <li className="mb-2">
-                          <span>E Com Business Owners</span>
+                          <span>Agency Owners integrating AI into services</span>
                         </li>
                         <li className="mb-2">
-                          <span>Content Creators & Influencers</span>
-                        </li>
-                        <li className="mb-2">
-                          <span>
-                            Community Member who want be in the dynamic zone and
-                            Scale their Business
-                          </span>
+                          <span>E-Commerce Owners optimising with AI</span>
                         </li>
                       </ul>
                     </div>
@@ -603,7 +594,7 @@ const TicketPage = () => {
                     data-bs-parent="#accordionExample"
                   >
                     <div className="accordion-body">
-                      April 26 - 09:00 am to 08:00 pm & April 27 - 09:30 am to
+                      May 23 - 09:00 am to 08:00 pm & May 24 - 09:30 am to
                       04:30 pm
                     </div>
                   </div>

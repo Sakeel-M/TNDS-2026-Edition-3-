@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import TicketWhite from "../assets/images/ticket-white.webp";
 import TicketBlack from "../assets/images/ticket-black.webp";
-import SELogo from "../assets/images/ticket/SocialEagle 2026 New Logo-05.png";
+import SELogo from "../assets/images/ticket/SocialEagle 2026 New Logo-06.png";
 import CallIcon from "../assets/images/ticket/call.webp";
 import EnvelopIcon from "../assets/images/ticket/envelop.webp";
 import FooterDesign1 from "../assets/images/footer-design1.webp";
@@ -68,13 +68,13 @@ const Footer = () => {
               </div>
             </motion.div>
           </div>
-          <div className="row align-items-center pb-3 mb-4 border-bottom-light">
-            <div className="col-lg-3 col-md-4 mb-lg-0 mb-md-4 text-center text-lg-start">
-              <div className="mb-3">
-                <img className="header-logo" src={Logo} alt="" />
+          <div className="row align-items-center pb-3 mb-4 border-bottom-light footer-align-row">
+            <div className="col-lg-3 col-md-4 mb-lg-0 mb-md-4 text-center">
+              <div className="mb-2">
+                <img className="header-logo mx-auto" src={Logo} alt="" />
               </div>
-              <div className="footer-social-wrap">
-                <ul className="list-unstyled footer-list mb-3 justify-content-center justify-content-lg-start">
+              <div className="footer-social-wrap footer-social-center-lg d-flex justify-content-center">
+                <ul className="list-unstyled footer-list mb-0 justify-content-center">
                   <li>
                     <a
                       href="https://www.instagram.com/tndigitalsummit/"
@@ -213,7 +213,7 @@ const Footer = () => {
             </div>
             <div className="col-lg-3">
               <div className="concept-created-text">
-                <p className="text-light text-lg-end text-md-start me-2 mb-3">
+                <p className="text-light text-lg-end text-md-start me-2 mb-2">
                   Concept Created & Curated By
                 </p>
                 <div className="text-lg-end text-md-start">

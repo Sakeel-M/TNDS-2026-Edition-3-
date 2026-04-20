@@ -16,7 +16,11 @@ const Awards = () => {
   return (
     <div className=''>
       <Navbar />
-      <ComingSoon title="Eagle Awards" />
+      <ComingSoon
+        title="Eagle Awards"
+        applyLabel="Eagle Award Application"
+        applyUrl="https://forms.gle/EKEi1RLJSyctbsP17"
+      />
       <Footer />
       <TimerSection />
     </div>

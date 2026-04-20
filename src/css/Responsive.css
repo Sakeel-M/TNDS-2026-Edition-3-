@@ -624,4 +624,17 @@
   .footer .concept-created-text > div {
     text-align: center !important;
   }
+  .footer .footer-list {
+    justify-content: center !important;
+  }
+  .footer .footer-social-wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+  }
+  .footer .col-lg-6.col-md-8 .footer-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
 }

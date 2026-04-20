@@ -33,6 +33,23 @@ const GalleryContent = () => {
             </div>
           </motion.div>
         </div>
+        <div className="container pb-5">
+          <motion.div
+            className="highlights-video-wrap mx-auto"
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="show"
+            viewport={viewportOnce}
+          >
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/EY2m64wMMx8?rel=0"
+              title="TNDS 2024 Highlights"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            ></iframe>
+          </motion.div>
+        </div>
         <div className="container">
           <motion.div
             className="row mb-5"
