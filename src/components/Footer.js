@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-const Logo = `${process.env.PUBLIC_URL}/${encodeURIComponent("TNDS 2026 Logo White.png")}`;
 import TicketWhite from "../assets/images/ticket-white.webp";
 import TicketBlack from "../assets/images/ticket-black.webp";
 import SELogo from "../assets/images/SE-logo.webp";
@@ -10,6 +9,8 @@ import FooterDesign1 from "../assets/images/footer-design1.webp";
 import FooterDesign2 from "../assets/images/footer-design2.webp";
 import { Link, useNavigate } from "react-router-dom";
 import { fadeUp, viewportOnce } from "../common/motionVariants";
+
+const Logo = `${process.env.PUBLIC_URL}/${encodeURIComponent("TNDS 2026 Logo White.png")}`;
 const Footer = () => {
   const scrollToTop = () => {
     window.scrollTo(0, 0);

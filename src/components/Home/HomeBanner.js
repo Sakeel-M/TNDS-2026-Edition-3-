@@ -4,12 +4,12 @@ import Video from "../../assets/videos/banner-video.mp4";
 import Location from "../../assets/images/location.webp";
 import TicketWhite from "../../assets/images/ticket-white.webp";
 import TicketBlack from "../../assets/images/ticket-black.webp";
-const BannerLogo = `${process.env.PUBLIC_URL}/${encodeURIComponent("TNDS 2026 Logo White.png")}`;
 import { useLocation, useNavigate } from "react-router-dom";
 import { scrollToSection } from "../../common/utills";
 import TimerSection from "../../common/TimerSection";
 import BannerTimer from "../../common/BannerTimer";
 
+const BannerLogo = `${process.env.PUBLIC_URL}/${encodeURIComponent("TNDS 2026 Logo White.png")}`;
 const EASE = [0.22, 0.61, 0.36, 1];
 const bannerItem = (delay) => ({
   initial: { opacity: 0, y: 24 },

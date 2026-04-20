@@ -5,7 +5,6 @@ import TickWrong from "../assets/images/ticket/tick-wrong.webp";
 import Img1 from "../assets/images/ticket/img1.webp";
 import Img2 from "../assets/images/ticket/img2.webp";
 import Img3 from "../assets/images/ticket/img3.webp";
-const TndsLogo = `${process.env.PUBLIC_URL}/${encodeURIComponent("TNDS 2026 Logo White.png")}`;
 import { Link } from "react-router-dom";
 import {
   fadeUp,
@@ -14,6 +13,8 @@ import {
   viewportOnce,
   hoverLift,
 } from "../common/motionVariants";
+
+const TndsLogo = `${process.env.PUBLIC_URL}/${encodeURIComponent("TNDS 2026 Logo White.png")}`;
 
 const TicketPage = () => {
   return (
