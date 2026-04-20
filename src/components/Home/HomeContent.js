@@ -98,34 +98,34 @@ const HomeContent = () => {
 
   const learnData = [
     {
-      text: "<strong>AI-Powered Business Operations</strong> - Turn AI from a buzzword into a working layer inside your business",
+      text: "<strong>AI-Powered Business Operations</strong><br/>Turn AI from a buzzword into a working layer inside your business",
     },
     {
-      text: "<strong>The Meta Update</strong> - What's shifted in the ecosystem: new frameworks, new rules, new opportunities",
+      text: "<strong>The Meta Update</strong><br/>What's shifted in the ecosystem: new frameworks, new rules, new opportunities",
     },
     {
-      text: "<strong>Visionary Thinking</strong> - Mental models that separate 10-year builders from 1-year operators",
+      text: "<strong>Visionary Thinking</strong><br/>Mental models that separate 10-year builders from 1-year operators",
     },
     {
-      text: "<strong>Frameworks That Scale</strong> - Proven systems for growth, not theory",
+      text: "<strong>Frameworks That Scale</strong><br/>Proven systems for growth, not theory",
     },
     {
-      text: "<strong>Building Digital Teams with AI</strong> - Your next team member doesn't need a salary, it needs a prompt",
+      text: "<strong>Building Digital Teams with AI</strong><br/>Your next team member doesn't need a salary, it needs a prompt",
     },
     {
-      text: "<strong>Real Business Transformations</strong> - Stories from people who were where you are",
+      text: "<strong>Real Business Transformations</strong><br/>Stories from people who were where you are",
     },
     {
-      text: "<strong>Leadership in the AI Era</strong> - Lead teams, make decisions, stay relevant",
+      text: "<strong>Leadership in the AI Era</strong><br/>Lead teams, make decisions, stay relevant",
     },
     {
-      text: "<strong>Revenue Models for the Next 3 Years</strong> - What's working, what's about to stop, where to bet",
+      text: "<strong>Revenue Models for the Next 3 Years</strong><br/>What's working, what's about to stop, where to bet",
     },
     {
-      text: "<strong>Insights from Iconic Founders</strong> - Lessons from people who've built companies you respect",
+      text: "<strong>Insights from Iconic Founders</strong><br/>Lessons from people who've built companies you respect",
     },
     {
-      text: "<strong>The Power of Community</strong> - 600+ entrepreneurs building together",
+      text: "<strong>The Power of Community</strong><br/>600+ entrepreneurs building together",
     },
   ];
 
@@ -476,7 +476,7 @@ const HomeContent = () => {
                 style={{ borderRadius: "20px" }}
                 width="100%"
                 height="460"
-                src="https://www.youtube.com/embed/BJykdUpIslc?si=srrld3sAHoEyjhbv"
+                src="https://www.youtube-nocookie.com/embed/BJykdUpIslc?rel=0"
                 title="Highlights from TNDS 2025"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
