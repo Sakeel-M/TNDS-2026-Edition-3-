@@ -22,7 +22,7 @@ export const staggerContainer = {
   },
 };
 
-export const viewportOnce = { once: true, amount: 0.05 };
+export const viewportOnce = { once: true, amount: "some" };
 
 export const hoverLift = {
   y: -6,
