@@ -35,7 +35,7 @@ const Footer = () => {
               <div>
                 <h2 className="footer-heading mb-3">
                   Join the Digital Leaders of Tomorrow <br className="br-tag" />{" "}
-                  Get Ready for the AI Future
+                  Get Ready To Build With AI
                 </h2>
                 <p className="footer-para mb-4">
                   Be part of the movement shaping South Asia’s AI future.

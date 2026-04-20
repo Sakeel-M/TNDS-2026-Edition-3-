@@ -1008,7 +1008,7 @@ const HomeContent = () => {
               viewport={viewportOnce}
             >
               <motion.div className="col-lg-7 col-md-7 my-auto" variants={fadeUp}>
-                <h2 className="get-ready-df-text">Get Ready for </h2>
+                <h2 className="get-ready-df-text">Get Ready To </h2>
                 <div className="significance-heading-section text-start ms-0 me-auto">
                   <img
                     className="significance-design-img"
@@ -1016,8 +1016,8 @@ const HomeContent = () => {
                     alt=""
                   />
                   <h2 className="get-ready-df-text">
-                    the AI{" "}
-                    <span className="bottom-border-gradient">Future</span>
+                    Build With{" "}
+                    <span className="bottom-border-gradient">AI</span>
                   </h2>
                 </div>
               </motion.div>
