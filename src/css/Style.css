@@ -1084,6 +1084,13 @@
   width: 80px;
   height: auto;
 }
+.learn-content strong {
+  font-family: "ClashDisplay-Bold", "Manrope-Bold", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 4px;
+}
 .learn-content {
   font-size: 16px;
   color: #000;
