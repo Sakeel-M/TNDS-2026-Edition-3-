@@ -609,3 +609,19 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 991px) {
+  .footer .header-logo,
+  .footer .ticket-tnds-logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer .concept-created-text {
+    text-align: center;
+    margin-top: 24px;
+  }
+  .footer .concept-created-text p,
+  .footer .concept-created-text > div {
+    text-align: center !important;
+  }
+}
