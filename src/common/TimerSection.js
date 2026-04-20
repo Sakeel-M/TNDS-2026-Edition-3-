@@ -57,7 +57,7 @@ const TimerSection = () => {
               <div className="col-lg-12">
                 <div className="row justify-content-center py-lg-1">
                   <div className="col-lg-2 d-lg-block d-none m-auto col-6">
-                    <h5 className="price-text mb-0">Event Starts In :</h5>
+                    <h5 className="price-text mb-0">Early Bird Offer Ends In :</h5>
                   </div>
                   <div className="col-lg-2 col-6">
                     <div className="flex-align-center">
