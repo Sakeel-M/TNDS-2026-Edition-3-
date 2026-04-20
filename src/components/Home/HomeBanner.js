@@ -9,7 +9,6 @@ import { scrollToSection } from "../../common/utills";
 import TimerSection from "../../common/TimerSection";
 import BannerTimer from "../../common/BannerTimer";
 
-const BannerLogo = `${process.env.PUBLIC_URL}/${encodeURIComponent("TNDS 2026 Logo White.png")}`;
 const EASE = [0.22, 0.61, 0.36, 1];
 const bannerItem = (delay) => ({
   initial: { opacity: 0, y: 24 },
@@ -35,9 +34,6 @@ const HomeBanner = () => {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-11">
-                <motion.div className="text-center" {...bannerItem(0)}>
-                  <img className="banner-logo" src={BannerLogo} alt=""></img>
-                </motion.div>
                 <motion.h1
                   className="banner-heading text-center mb-3"
                   {...bannerItem(0.15)}

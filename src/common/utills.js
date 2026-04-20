@@ -1,7 +1,10 @@
-export const scrollToSection = (sectionId) => {
+export const scrollToSection = (sectionId, retries = 20) => {
     const targetElement = document.getElementById(sectionId);
     if (targetElement) {
-        // Smooth scroll to the target element
         targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        return;
+    }
+    if (retries > 0) {
+        setTimeout(() => scrollToSection(sectionId, retries - 1), 100);
     }
 };

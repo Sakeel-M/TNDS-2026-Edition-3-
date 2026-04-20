@@ -226,7 +226,7 @@ const HomeContent = () => {
               <motion.div className="col-lg-2 col-md-4 col-6" variants={fadeUp}>
                 <div className="count-home-sec">
                   <h4 className="count-heading">
-                    <CountUp start={0} end={3} duration={2} delay={0} />
+                    <CountUp start={0} end={2} duration={2} delay={0} />
                   </h4>
                   <p className="mb-0 count-para">Editions</p>
                 </div>
