@@ -64,22 +64,22 @@ const TicketPage = () => {
                         </div>
                         <div className="d-flex justify-content-center mb-1 align-items-center">
                           <div className="position-relative">
-                            <h5 className="mb-0 text-light line-through">Rs.11,999</h5>
+                            <h5 className="mb-0 text-light line-through">Rs.12,999</h5>
                             <span className="line-through-text"></span>
                           </div>
                           <h6 className="mb-0 text-light ">( Offer )</h6>
                         </div>
                         <div className="d-flex justify-content-center align-items-center">
                           <h2 className="ticket-amount-heading mb-2">
-                            Rs.9,999{" "}
+                            Rs.10,999{" "}
                           </h2>
                           <h2 className="ticket-amount-heading mb-2 fs-6">
-                            ( Early Bird )
+                            ( Revised Early Bird )
                           </h2>
                         </div>
                         <p className="mb-0 text-light">+18% GST</p>
                         <span className="text-light small-text">
-                          Save ₹10,000
+                          Save ₹9,001
                         </span>
                       </div>
                     </div>
@@ -143,7 +143,7 @@ const TicketPage = () => {
                         </div>
                       </div>
                       <div className="btn-container">
-                        <Link to="https://rzp.io/rzp/kjp1elsV" target="_blank" rel="noreferrer">
+                        <Link to="https://rzp.io/rzp/revised-earlybirdtnds-silver" target="_blank" rel="noreferrer">
                           <button className="btn btn-buy-ticket">
                             BUY TICKETS
                           </button>
@@ -176,20 +176,20 @@ const TicketPage = () => {
                     </div>
                     <div className="d-flex justify-content-center mb-1 align-items-center">
                       <div className="position-relative">
-                        <h5 className="mb-0 text-light line-through">Rs.15,999</h5>
+                        <h5 className="mb-0 text-light line-through">Rs.16,999</h5>
                         <span className="line-through-text"></span>
                       </div>
                       <h6 className="mb-0 text-light ">( Offer )</h6>
                     </div>
                     <div className="d-flex justify-content-center align-items-center">
-                      <h2 className="ticket-amount-heading mb-2">Rs.13,999 </h2>
+                      <h2 className="ticket-amount-heading mb-2">Rs.14,999 </h2>
                       <h2 className="ticket-amount-heading mb-2 fs-6">
-                        ( Early Bird )
+                        ( Revised Early Bird )
                       </h2>
                     </div>
                     <p className="mb-0 text-light">+18% GST</p>
                     <span className="text-light small-text">
-                      Save ₹27,000
+                      Save ₹26,001
                     </span>
                   </div>
                 </div>
@@ -253,7 +253,7 @@ const TicketPage = () => {
                     </div>
                   </div>
                   <div className="btn-container">
-                    <Link to="https://rzp.io/rzp/nPV3t5dX" target="_blank" rel="noreferrer">
+                    <Link to="https://rzp.io/rzp/revised-earlybirdtnds-gold" target="_blank" rel="noreferrer">
                       <button className="btn btn-buy-ticket">
                         BUY TICKETS
                       </button>
@@ -288,22 +288,22 @@ const TicketPage = () => {
                         </div>
                         <div className="d-flex justify-content-center mb-1 align-items-center">
                           <div className="position-relative">
-                            <h5 className="mb-0 text-light line-through">Rs.34,999</h5>
+                            <h5 className="mb-0 text-light line-through">Rs.37,999</h5>
                             <span className="line-through-text"></span>
                           </div>
                           <h6 className="mb-0 text-light ">( Offer )</h6>
                         </div>
                         <div className="d-flex justify-content-center align-items-center">
                           <h2 className="ticket-amount-heading mb-2">
-                            Rs.29,999{" "}
+                            Rs.34,999{" "}
                           </h2>
                           <h2 className="ticket-amount-heading mb-2 fs-6">
-                            ( Early Bird )
+                            ( Revised Early Bird )
                           </h2>
                         </div>
                         <p className="mb-0 text-light">+18% GST</p>
                         <span className="text-light small-text">
-                          Save ₹30,000
+                          Save ₹25,000
                         </span>
                       </div>
                     </div>
@@ -367,7 +367,7 @@ const TicketPage = () => {
                         </div>
                       </div>
                       <div className="btn-container">
-                        <Link to="https://rzp.io/rzp/XyFioKT" target="_blank" rel="noreferrer">
+                        <Link to="https://rzp.io/rzp/revised-earlybirdtnds-diamond" target="_blank" rel="noreferrer">
                           <button className="btn btn-buy-ticket">
                             BUY TICKETS
                           </button>
