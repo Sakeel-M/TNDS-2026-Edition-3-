@@ -73,7 +73,10 @@ const TicketPage = () => {
                           <h6 className="mb-0 text-light ">( Actual )</h6>
                         </div>
                         <div className="d-flex justify-content-center mb-1 align-items-center">
-                          <h5 className="mb-0 text-light">Rs.11,999</h5>
+                          <div className="position-relative">
+                            <h5 className="mb-0 text-light line-through">Rs.11,999</h5>
+                            <span className="line-through-text"></span>
+                          </div>
                           <h6 className="mb-0 text-light ">( Offer )</h6>
                         </div>
                         <div className="d-flex justify-content-center align-items-center">
@@ -93,90 +96,60 @@ const TicketPage = () => {
                     <div className="silver-ticket-padding pt-3">
                       <div className="padding-bottom-ticket">
                         <div className="silver-ticket-flex">
-                          <img
-                            className="ticket-buy-icon"
-                            src={TickRight}
-                            alt=""
-                          />
+                          <img className="ticket-buy-icon" src={TickRight} alt="" />
+                          <p className="mb-0">Full 2-Day Event Access</p>
+                        </div>
+                        <div className="silver-ticket-flex">
+                          <img className="ticket-buy-icon" src={TickRight} alt="" />
                           <p className="mb-0">Conference Kit</p>
                         </div>
                         <div className="silver-ticket-flex">
-                          <img
-                            className="ticket-buy-icon"
-                            src={TickRight}
-                            alt=""
-                          />
-                          <p className="mb-0">Lunch day - 1</p>
+                          <img className="ticket-buy-icon" src={TickRight} alt="" />
+                          <p className="mb-0">Seating – <em>Standard</em></p>
                         </div>
                         <div className="silver-ticket-flex">
-                          <img
-                            className="ticket-buy-icon"
-                            src={TickRight}
-                            alt=""
-                          />
-                          <p className="mb-0">Dinner day - 1</p>
+                          <img className="ticket-buy-icon" src={TickRight} alt="" />
+                          <p className="mb-0">Day 1 – Lunch</p>
                         </div>
                         <div className="silver-ticket-flex">
-                          <img
-                            className="ticket-buy-icon"
-                            src={TickRight}
-                            alt=""
-                          />
-                          <p className="mb-0">Lunch day - 2</p>
+                          <img className="ticket-buy-icon" src={TickRight} alt="" />
+                          <p className="mb-0">Day 1 – Dinner</p>
                         </div>
                         <div className="silver-ticket-flex">
-                          <img
-                            className="ticket-buy-icon"
-                            src={TickRight}
-                            alt=""
-                          />
-                          <p className="mb-0">Award night</p>
+                          <img className="ticket-buy-icon" src={TickRight} alt="" />
+                          <p className="mb-0">Day 2 – Lunch</p>
                         </div>
                         <div className="silver-ticket-flex">
-                          <img
-                            className="ticket-buy-icon"
-                            src={TickWrong}
-                            alt=""
-                          />
-                          <p className="mb-0">
-                            Video Replay Access Of The Event For 1 Year
-                          </p>
+                          <img className="ticket-buy-icon" src={TickRight} alt="" />
+                          <p className="mb-0">Awards Night Access</p>
                         </div>
                         <div className="silver-ticket-flex">
-                          <img
-                            className="ticket-buy-icon"
-                            src={TickWrong}
-                            alt=""
-                          />
-                          <p className="mb-0">
-                            Photo Opportunity With Guest Speakers & VIP
-                          </p>
+                          <img className="ticket-buy-icon" src={TickRight} alt="" />
+                          <p className="mb-0">Event Resources</p>
                         </div>
                         <div className="silver-ticket-flex">
-                          <img
-                            className="ticket-buy-icon"
-                            src={TickWrong}
-                            alt=""
-                          />
-                          <p className="mb-0">
-                            Lunch & Dinner With Guest Speakers & VIP
-                          </p>
+                          <img className="ticket-buy-icon" src={TickRight} alt="" />
+                          <p className="mb-0">5 Days Session – What's Working with Meta Ads in 2026 (₹5,000) by Vishnuhari</p>
                         </div>
                         <div className="silver-ticket-flex">
-                          <img
-                            className="ticket-buy-icon"
-                            src={TickWrong}
-                            alt=""
-                          />
-                          <p className="mb-0">Red Carpet Welcome</p>
+                          <img className="ticket-buy-icon" src={TickRight} alt="" />
+                          <p className="mb-0">5 Days Session – How to Create AI Employee (₹5,000) by Manoj (The AI Dude)</p>
                         </div>
                         <div className="silver-ticket-flex">
-                          <img
-                            className="ticket-buy-icon"
-                            src={TickWrong}
-                            alt=""
-                          />
-                          <p className="mb-0">Seating Arrangement</p>
+                          <img className="ticket-buy-icon" src={TickWrong} alt="" />
+                          <p className="mb-0">Personal Mastery Course by Dharaneetharan (₹10,000)</p>
+                        </div>
+                        <div className="silver-ticket-flex">
+                          <img className="ticket-buy-icon" src={TickWrong} alt="" />
+                          <p className="mb-0">Video Replay Access</p>
+                        </div>
+                        <div className="silver-ticket-flex">
+                          <img className="ticket-buy-icon" src={TickWrong} alt="" />
+                          <p className="mb-0">Photo Opportunity at Diamond Arena</p>
+                        </div>
+                        <div className="silver-ticket-flex">
+                          <img className="ticket-buy-icon" src={TickWrong} alt="" />
+                          <p className="mb-0">Exclusive Networking Access</p>
                         </div>
                       </div>
                       <div className="btn-container">
@@ -212,7 +185,10 @@ const TicketPage = () => {
                       <h6 className="mb-0 text-light ">( Actual )</h6>
                     </div>
                     <div className="d-flex justify-content-center mb-1 align-items-center">
-                      <h5 className="mb-0 text-light">Rs.15,999</h5>
+                      <div className="position-relative">
+                        <h5 className="mb-0 text-light line-through">Rs.15,999</h5>
+                        <span className="line-through-text"></span>
+                      </div>
                       <h6 className="mb-0 text-light ">( Offer )</h6>
                     </div>
                     <div className="d-flex justify-content-center align-items-center">
@@ -231,49 +207,59 @@ const TicketPage = () => {
                   <div className="padding-bottom-ticket">
                     <div className="silver-ticket-flex">
                       <img className="ticket-buy-icon" src={TickRight} alt="" />
+                      <p className="mb-0">Full 2-Day Event Access</p>
+                    </div>
+                    <div className="silver-ticket-flex">
+                      <img className="ticket-buy-icon" src={TickRight} alt="" />
                       <p className="mb-0">Conference Kit</p>
                     </div>
                     <div className="silver-ticket-flex">
                       <img className="ticket-buy-icon" src={TickRight} alt="" />
-                      <p className="mb-0">Lunch day - 1</p>
+                      <p className="mb-0">Seating – <em>Gold Priority Seating</em></p>
                     </div>
                     <div className="silver-ticket-flex">
                       <img className="ticket-buy-icon" src={TickRight} alt="" />
-                      <p className="mb-0">Dinner day - 1</p>
+                      <p className="mb-0">Day 1 – Lunch</p>
                     </div>
                     <div className="silver-ticket-flex">
                       <img className="ticket-buy-icon" src={TickRight} alt="" />
-                      <p className="mb-0">Lunch day - 2</p>
+                      <p className="mb-0">Day 1 – Dinner</p>
                     </div>
                     <div className="silver-ticket-flex">
                       <img className="ticket-buy-icon" src={TickRight} alt="" />
-                      <p className="mb-0">Award night</p>
+                      <p className="mb-0">Day 2 – Lunch</p>
                     </div>
                     <div className="silver-ticket-flex">
                       <img className="ticket-buy-icon" src={TickRight} alt="" />
-                      <p className="mb-0">
-                        Video Replay Access Of The Event For 1 Year
-                      </p>
+                      <p className="mb-0">Awards Night Access</p>
+                    </div>
+                    <div className="silver-ticket-flex">
+                      <img className="ticket-buy-icon" src={TickRight} alt="" />
+                      <p className="mb-0">Event Resources</p>
+                    </div>
+                    <div className="silver-ticket-flex">
+                      <img className="ticket-buy-icon" src={TickRight} alt="" />
+                      <p className="mb-0">5 Days Session – What's Working with Meta Ads in 2026 (₹5,000) by Vishnuhari</p>
+                    </div>
+                    <div className="silver-ticket-flex">
+                      <img className="ticket-buy-icon" src={TickRight} alt="" />
+                      <p className="mb-0">5 Days Session – How to Create AI Employee (₹5,000) by Manoj (The AI Dude)</p>
+                    </div>
+                    <div className="silver-ticket-flex">
+                      <img className="ticket-buy-icon" src={TickRight} alt="" />
+                      <p className="mb-0">Personal Mastery Course by Dharaneetharan (₹10,000)</p>
+                    </div>
+                    <div className="silver-ticket-flex">
+                      <img className="ticket-buy-icon" src={TickRight} alt="" />
+                      <p className="mb-0">Video Replay Access – <em>60 Days Access</em></p>
                     </div>
                     <div className="silver-ticket-flex">
                       <img className="ticket-buy-icon" src={TickWrong} alt="" />
-                      <p className="mb-0">
-                        Photo Opportunity With Guest Speakers & VIP
-                      </p>
+                      <p className="mb-0">Photo Opportunity at Diamond Arena</p>
                     </div>
                     <div className="silver-ticket-flex">
                       <img className="ticket-buy-icon" src={TickWrong} alt="" />
-                      <p className="mb-0">
-                        Lunch & Dinner With Guest Speakers & VIP
-                      </p>
-                    </div>
-                    <div className="silver-ticket-flex">
-                      <img className="ticket-buy-icon" src={TickWrong} alt="" />
-                      <p className="mb-0">Red Carpet Welcome</p>
-                    </div>
-                    <div className="silver-ticket-flex">
-                      <img className="ticket-buy-icon" src={TickWrong} alt="" />
-                      <p className="mb-0">Seating Arrangement</p>
+                      <p className="mb-0">Exclusive Networking Access</p>
                     </div>
                   </div>
                   <div className="btn-container">
@@ -311,7 +297,10 @@ const TicketPage = () => {
                           <h6 className="mb-0 text-light ">( Actual )</h6>
                         </div>
                         <div className="d-flex justify-content-center mb-1 align-items-center">
-                          <h5 className="mb-0 text-light">Rs.34,999</h5>
+                          <div className="position-relative">
+                            <h5 className="mb-0 text-light line-through">Rs.34,999</h5>
+                            <span className="line-through-text"></span>
+                          </div>
                           <h6 className="mb-0 text-light ">( Offer )</h6>
                         </div>
                         <div className="d-flex justify-content-center align-items-center">
@@ -331,90 +320,60 @@ const TicketPage = () => {
                     <div className="silver-ticket-padding pt-3">
                       <div className="padding-bottom-ticket">
                         <div className="silver-ticket-flex">
-                          <img
-                            className="ticket-buy-icon"
-                            src={TickRight}
-                            alt=""
-                          />
+                          <img className="ticket-buy-icon" src={TickRight} alt="" />
+                          <p className="mb-0">Full 2-Day Event Access</p>
+                        </div>
+                        <div className="silver-ticket-flex">
+                          <img className="ticket-buy-icon" src={TickRight} alt="" />
                           <p className="mb-0">Conference Kit</p>
                         </div>
                         <div className="silver-ticket-flex">
-                          <img
-                            className="ticket-buy-icon"
-                            src={TickRight}
-                            alt=""
-                          />
-                          <p className="mb-0">Lunch day - 1</p>
+                          <img className="ticket-buy-icon" src={TickRight} alt="" />
+                          <p className="mb-0">Seating – <em>VIP Special Seating</em></p>
                         </div>
                         <div className="silver-ticket-flex">
-                          <img
-                            className="ticket-buy-icon"
-                            src={TickRight}
-                            alt=""
-                          />
-                          <p className="mb-0">Dinner day - 1</p>
+                          <img className="ticket-buy-icon" src={TickRight} alt="" />
+                          <p className="mb-0">Day 1 – Lunch</p>
                         </div>
                         <div className="silver-ticket-flex">
-                          <img
-                            className="ticket-buy-icon"
-                            src={TickRight}
-                            alt=""
-                          />
-                          <p className="mb-0">Lunch day - 2</p>
+                          <img className="ticket-buy-icon" src={TickRight} alt="" />
+                          <p className="mb-0">Day 1 – Dinner</p>
                         </div>
                         <div className="silver-ticket-flex">
-                          <img
-                            className="ticket-buy-icon"
-                            src={TickRight}
-                            alt=""
-                          />
-                          <p className="mb-0">Award night</p>
+                          <img className="ticket-buy-icon" src={TickRight} alt="" />
+                          <p className="mb-0">Day 2 – Lunch</p>
                         </div>
                         <div className="silver-ticket-flex">
-                          <img
-                            className="ticket-buy-icon"
-                            src={TickRight}
-                            alt=""
-                          />
-                          <p className="mb-0">
-                            Video Replay Access Of The Event For 1 Year
-                          </p>
+                          <img className="ticket-buy-icon" src={TickRight} alt="" />
+                          <p className="mb-0">Awards Night Access</p>
                         </div>
                         <div className="silver-ticket-flex">
-                          <img
-                            className="ticket-buy-icon"
-                            src={TickRight}
-                            alt=""
-                          />
-                          <p className="mb-0">
-                            Photo Opportunity With Guest Speakers & VIP
-                          </p>
+                          <img className="ticket-buy-icon" src={TickRight} alt="" />
+                          <p className="mb-0">Event Resources</p>
                         </div>
                         <div className="silver-ticket-flex">
-                          <img
-                            className="ticket-buy-icon"
-                            src={TickRight}
-                            alt=""
-                          />
-                          <p className="mb-0">
-                            Lunch & Dinner With Guest Speakers & VIP
-                          </p>
+                          <img className="ticket-buy-icon" src={TickRight} alt="" />
+                          <p className="mb-0">5 Days Session – What's Working with Meta Ads in 2026 (₹5,000) by Vishnuhari</p>
                         </div>
                         <div className="silver-ticket-flex">
-                          <img
-                            className="ticket-buy-icon"
-                            src={TickRight}
-                            alt=""
-                          />
-                          <p className="mb-0">Red Carpet Welcome</p>
+                          <img className="ticket-buy-icon" src={TickRight} alt="" />
+                          <p className="mb-0">5 Days Session – How to Create AI Employee (₹5,000) by Manoj (The AI Dude)</p>
                         </div>
                         <div className="silver-ticket-flex">
-                          <img
-                            className="ticket-buy-icon"
-                            src={TickRight}
-                            alt=""
-                          />
-                          <p className="mb-0">Exclusive Seating Arrangement</p>
+                          <img className="ticket-buy-icon" src={TickRight} alt="" />
+                          <p className="mb-0">Personal Mastery Course by Dharaneetharan (₹10,000)</p>
+                        </div>
+                        <div className="silver-ticket-flex">
+                          <img className="ticket-buy-icon" src={TickRight} alt="" />
+                          <p className="mb-0">Video Replay Access – <em>1 Year Access</em></p>
+                        </div>
+                        <div className="silver-ticket-flex">
+                          <img className="ticket-buy-icon" src={TickRight} alt="" />
+                          <p className="mb-0">Photo Opportunity at Diamond Arena</p>
+                        </div>
+                        <div className="silver-ticket-flex">
+                          <img className="ticket-buy-icon" src={TickRight} alt="" />
+                          <p className="mb-0">Exclusive Networking Access – <em>Diamond Arena</em></p>
                         </div>
                       </div>
                       <div className="btn-container">

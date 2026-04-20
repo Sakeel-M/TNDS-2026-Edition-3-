@@ -158,6 +158,32 @@
 .padding-bottom-ticket {
   padding-bottom: 50px;
 }
+.ticket-page .row.justify-content-center {
+  align-items: stretch;
+}
+.ticket-page .position-soldout,
+.ticket-page .opacity-sold-ticket {
+  height: 100%;
+}
+.silver-section,
+.gold-section,
+.diamond-section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.silver-ticket-padding {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+.silver-ticket-padding .padding-bottom-ticket {
+  flex: 0 0 auto;
+}
+.silver-ticket-padding .btn-container {
+  margin-top: 20px;
+  padding-top: 20px;
+}
 
 .gold-section {
   background-image: url("../assets/images/ticket/bg2.webp");
