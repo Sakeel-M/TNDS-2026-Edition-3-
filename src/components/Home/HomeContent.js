@@ -708,27 +708,7 @@ const HomeContent = () => {
         <div className="bg-blue-gradient pt-lg-5 pb-lg-3 py-md-5 py-5">
           <div className="container">
             <div className="row justify-content-center">
-              <motion.div
-                className="col-lg-5 col-md-5 my-auto"
-                variants={fadeIn}
-                initial="hidden"
-                whileInView="show"
-                viewport={viewportOnce}
-              >
-                <div className="org-featured">
-                  <img
-                    className="org-featured-img"
-                    src={scrollOrganizer[selectedOrgIdx]?.img}
-                    alt={scrollOrganizer[selectedOrgIdx]?.name}
-                  />
-                  <img
-                    className="org-featured-img"
-                    src={scrollOrganizer[selectedOrgIdx]?.img2}
-                    alt={scrollOrganizer[selectedOrgIdx]?.name}
-                  />
-                </div>
-              </motion.div>
-              <div className="col-lg-7 col-md-7  my-auto">
+              <div className="col-lg-9 col-md-8  my-auto">
                 <motion.div
                   className="significance-heading-section  pb-4 text-start ms-0 me-auto"
                   variants={fadeUp}
@@ -753,34 +733,70 @@ const HomeContent = () => {
                   viewport={viewportOnce}
                 >
                   {scrollOrganizer.map((item, index) => {
+                    const isActive = selectedOrgIdx === index;
                     return (
                       <motion.div
                         variants={fadeUp}
                         onClick={() => setSelectedOrgIdx(index)}
-                        className={`event-organizer-card-2 mb-3 col col-md-4 col-6`}
-                        style={{
-                          opacity: selectedOrgIdx === index ? 1 : 0.35,
-                        }}
+                        className={`event-organizer-card-2 mb-4 col col-md-4 col-6 text-center`}
+                        style={{ opacity: isActive ? 1 : 0.5 }}
                         key={index}
                         onMouseEnter={() => setSelectedOrgIdx(index)}
                       >
                         <img
-                          className="org-team-card-2-img"
+                          className={`org-thumb-photo${isActive ? " is-active" : ""}`}
                           src={item?.img2}
-                          alt={""}
+                          alt={item?.name}
                         />
-                        <div className="">
+                        <div>
                           <h6 className="core-card-text mb-1">{item?.name}</h6>
                           <p
                             className="core-card-subtext h-auto  text-small"
                             dangerouslySetInnerHTML={{ __html: item?.pos }}
                           ></p>
+                          <div className="org-social d-flex justify-content-center gap-2 mt-2">
+                            {item?.insta && (
+                              <a href={item.insta} target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()}>
+                                <i className="fa-brands fa-instagram"></i>
+                              </a>
+                            )}
+                            {item?.facebook && (
+                              <a href={item.facebook} target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()}>
+                                <i className="fa-brands fa-facebook"></i>
+                              </a>
+                            )}
+                            {item?.linkedin && (
+                              <a href={item.linkedin} target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()}>
+                                <i className="fa-brands fa-linkedin-in"></i>
+                              </a>
+                            )}
+                            {item?.youtube && (
+                              <a href={item.youtube} target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()}>
+                                <i className="fa-brands fa-youtube"></i>
+                              </a>
+                            )}
+                          </div>
                         </div>
                       </motion.div>
                     );
                   })}
                 </motion.div>
               </div>
+              <motion.div
+                className="col-lg-3 col-md-4 my-auto"
+                variants={fadeIn}
+                initial="hidden"
+                whileInView="show"
+                viewport={viewportOnce}
+              >
+                <div className="owlcard-organizer">
+                  <img
+                    className="organizer-side-img"
+                    src={scrollOrganizer[selectedOrgIdx]?.img}
+                    alt={scrollOrganizer[selectedOrgIdx]?.name}
+                  />
+                </div>
+              </motion.div>
             </div>
           </div>
         </div>

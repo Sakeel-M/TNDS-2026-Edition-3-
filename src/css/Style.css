@@ -1698,15 +1698,20 @@
   background: transparent;
 }
 
-/* --- Organiser thumbnails rendered from raw portrait photos --- */
+/* --- Organiser thumbnails: circle, gold border only when active --- */
 .org-thumb-photo {
-  width: 90px !important;
-  height: 90px !important;
+  width: 110px !important;
+  height: 110px !important;
   object-fit: cover;
   border-radius: 50%;
-  border: 3px solid #fdc300;
-  background: #fff;
-  padding: 2px;
+  border: 3px solid transparent;
+  display: block;
+  margin: 0 auto 12px;
+  transition: border-color 0.25s ease, transform 0.25s ease;
+}
+.org-thumb-photo.is-active {
+  border-color: #fdc300;
+  transform: scale(1.05);
 }
 
 /* --- Motion polish: smooth card hover + button transitions --- */
@@ -1832,18 +1837,14 @@
   filter: brightness(1.05);
 }
 
-/* --- Organisers featured 2-image panel (left side) --- */
-.org-featured {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
+/* --- Organiser cards: circle thumb + gold border on active --- */
+.org-social a {
+  color: #ffffff;
+  font-size: 14px;
+  transition: color 0.2s ease;
 }
-.org-featured-img {
-  width: 100%;
-  aspect-ratio: 3 / 4;
-  object-fit: cover;
-  border-radius: 16px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+.org-social a:hover {
+  color: #fdc300;
 }
 
 @media (prefers-reduced-motion: reduce) {
