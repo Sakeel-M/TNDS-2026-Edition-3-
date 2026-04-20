@@ -29,10 +29,10 @@ const HomeContent = () => {
 
   const PUBLIC = process.env.PUBLIC_URL;
   const absImg = [
-    { img: `${PUBLIC}/tnds-2025-highlights/${encodeURIComponent("_TP11629.jpg")}` },
+    { img: `${PUBLIC}/tnds-2025-highlights/_TP11651.jpg` },
     { img: `${PUBLIC}/tnds-2025-highlights/TP109909.jpg` },
     { img: `${PUBLIC}/tnds-2025-highlights/TP109940.jpg` },
-    { img: `${PUBLIC}/tnds-2025-highlights/TP201309.jpg` },
+    { img: `${PUBLIC}/tnds-2025-highlights/TP201500.jpg` },
     { img: `${PUBLIC}/tnds-2025-highlights/TP201460.jpg` },
     { img: `${PUBLIC}/tnds-2025-highlights/TP201693.jpg` },
   ];
@@ -440,7 +440,7 @@ const HomeContent = () => {
                 <div className="col-lg-5 col-md-5 col-5 mt-auto">
                   <img
                     className="w-100 h-auto recap25-photo"
-                    src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/_CP14859.jpg`}
+                    src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/CP205298.JPG`}
                     alt="TNDS 2025"
                   />
                 </div>

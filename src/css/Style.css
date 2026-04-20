@@ -1797,13 +1797,14 @@
   overflow: hidden;
   border-radius: 20px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  background: #0b1126;
 }
 .bento-tile img {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   transition: transform 0.35s ease, filter 0.35s ease;
 }
 .bento-tile:hover img {
