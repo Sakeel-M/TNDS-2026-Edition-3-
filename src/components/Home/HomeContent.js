@@ -29,12 +29,12 @@ const HomeContent = () => {
 
   const PUBLIC = process.env.PUBLIC_URL;
   const absImg = [
-    { img: `${PUBLIC}/tnds-2025-highlights/_TP11651.jpg` },
-    { img: `${PUBLIC}/tnds-2025-highlights/TP109909.jpg` },
-    { img: `${PUBLIC}/tnds-2025-highlights/TP109940.jpg` },
-    { img: `${PUBLIC}/tnds-2025-highlights/TP201500.jpg` },
-    { img: `${PUBLIC}/tnds-2025-highlights/TP201460.jpg` },
-    { img: `${PUBLIC}/tnds-2025-highlights/TP201693.jpg` },
+    { img: `${PUBLIC}/tnds-2025-highlights/_CP31499.jpg` },
+    { img: `${PUBLIC}/tnds-2025-highlights/_TP11707.jpg` },
+    { img: `${PUBLIC}/tnds-2025-highlights/TP200902.jpg` },
+    { img: `${PUBLIC}/tnds-2025-highlights/TP201504.jpg` },
+    { img: `${PUBLIC}/tnds-2025-highlights/TP201517.jpg` },
+    { img: `${PUBLIC}/tnds-2025-highlights/TP201565.jpg` },
   ];
 
   const coreCommittee = [
@@ -135,8 +135,8 @@ const HomeContent = () => {
 
   const scrollOrganizer = [
     {
-      img: require("../../assets/images/o1.webp"),
-      img2: require("../../assets/images/eo1.webp"),
+      img: require("../../assets/images/organisers/Organisers_Dharaneetharan.png"),
+      img2: require("../../assets/images/organisers/Organisers_Dharaneetharan2.png"),
       name: "G D Dharaneetharan",
       pos: "Founder - Social Eagle & 21DC Community",
       insta: "https://www.instagram.com/dharaneetharan/?hl=en",
@@ -146,18 +146,17 @@ const HomeContent = () => {
         "https://www.linkedin.com/in/dharaneetharan/?originalSubdomain=in",
     },
     {
-      img: require("../../assets/images/o2.webp"),
-      img2: require("../../assets/images/eo2.webp"),
+      img: require("../../assets/images/organisers/Organisers_Vishnu Hari.png"),
+      img2: require("../../assets/images/organisers/Organisers_Vishnu Hari2.png"),
       name: "Vishnuhari",
       pos: "Co-Founder - Social Eagle, EX AIRBNB",
-
       insta: "https://www.instagram.com/imvishnuhari/",
       facebook: "https://www.facebook.com/imvishnuhari?mibextid=ZbWKwL",
       linkedin: "https://www.linkedin.com/in/vishnuhari-harikumar/",
     },
     {
-      img: require("../../assets/images/o3.webp"),
-      img2: require("../../assets/images/eo3.webp"),
+      img: require("../../assets/images/organisers/Organisers_SathishS.png"),
+      img2: require("../../assets/images/organisers/Organisers_SathishS2.png"),
       name: "Sathish S",
       pos: "Director of Operations, Social eagle",
       insta: "https://www.instagram.com/socialeagleofficial/?hl=en",
@@ -165,8 +164,8 @@ const HomeContent = () => {
       linkedin: "https://www.linkedin.com/company/socialeagle/",
     },
     {
-      img: require("../../assets/images/o5.webp"),
-      img2: require("../../assets/images/eo5.webp"),
+      img: require("../../assets/images/organisers/Organisers_Shatheeshram.png"),
+      img2: require("../../assets/images/organisers/Organisers_Shatheeshram.png"),
       name: "Shatheeshram Ganapathy",
       pos: "Director of Sales, Social eagle",
       insta:
@@ -175,29 +174,25 @@ const HomeContent = () => {
       linkedin: "https://www.linkedin.com/in/shatheeshram-ganapathy-a7476473/",
     },
     {
-      img: `${process.env.PUBLIC_URL}/Akshaya_Image.png`,
-      img2: `${process.env.PUBLIC_URL}/Akshaya_Image.png`,
+      img: require("../../assets/images/organisers/Organisers_Akshaya.png"),
+      img2: require("../../assets/images/organisers/Organisers_Akshaya2.png"),
       name: "Akshaya",
       pos: "Manager - Systems and Processes, Social Eagle",
       insta: "",
       facebook: "",
       linkedin: "",
-      circle: true,
     },
     {
-      img: `${process.env.PUBLIC_URL}/Archana_Image.jpeg`,
-      img2: `${process.env.PUBLIC_URL}/Archana_Image.jpeg`,
+      img: require("../../assets/images/organisers/Organisers_Archana.png"),
+      img2: require("../../assets/images/organisers/Organisers_Archana2.png"),
       name: "Archana",
       pos: "Head - New Initiatives, Social Eagle",
       insta: "",
       facebook: "",
       linkedin: "",
-      circle: true,
     },
   ];
-  const [selectedOranizer, setSelectedOrganizer] = useState(
-    scrollOrganizer?.[0]?.img
-  );
+  const [selectedOrgIdx, setSelectedOrgIdx] = useState(0);
 
   return (
     <div>
@@ -401,7 +396,7 @@ const HomeContent = () => {
                 <div className="col-lg-7 col-md-7 col-7">
                   <img
                     className="w-100 h-auto mb-3 recap25-photo"
-                    src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/_CP14854.jpg`}
+                    src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/TP201732.jpg`}
                     alt="TNDS 2025"
                   />
                   <img
@@ -713,7 +708,27 @@ const HomeContent = () => {
         <div className="bg-blue-gradient pt-lg-5 pb-lg-3 py-md-5 py-5">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-lg-9 col-md-8  my-auto">
+              <motion.div
+                className="col-lg-5 col-md-5 my-auto"
+                variants={fadeIn}
+                initial="hidden"
+                whileInView="show"
+                viewport={viewportOnce}
+              >
+                <div className="org-featured">
+                  <img
+                    className="org-featured-img"
+                    src={scrollOrganizer[selectedOrgIdx]?.img}
+                    alt={scrollOrganizer[selectedOrgIdx]?.name}
+                  />
+                  <img
+                    className="org-featured-img"
+                    src={scrollOrganizer[selectedOrgIdx]?.img2}
+                    alt={scrollOrganizer[selectedOrgIdx]?.name}
+                  />
+                </div>
+              </motion.div>
+              <div className="col-lg-7 col-md-7  my-auto">
                 <motion.div
                   className="significance-heading-section  pb-4 text-start ms-0 me-auto"
                   variants={fadeUp}
@@ -741,17 +756,16 @@ const HomeContent = () => {
                     return (
                       <motion.div
                         variants={fadeUp}
-                        onClick={() => setSelectedOrganizer(item?.img)}
+                        onClick={() => setSelectedOrgIdx(index)}
                         className={`event-organizer-card-2 mb-3 col col-md-4 col-6`}
                         style={{
-                          opacity: selectedOranizer === item?.img ? 1 : 0.35,
+                          opacity: selectedOrgIdx === index ? 1 : 0.35,
                         }}
                         key={index}
-                        onMouseEnter={() => setSelectedOrganizer(item?.img)}
-                        onMouseLeave={() => setSelectedOrganizer(item?.img)}
+                        onMouseEnter={() => setSelectedOrgIdx(index)}
                       >
                         <img
-                          className={`org-team-card-2-img${item?.circle ? " org-thumb-photo" : ""}`}
+                          className="org-team-card-2-img"
                           src={item?.img2}
                           alt={""}
                         />
@@ -767,21 +781,6 @@ const HomeContent = () => {
                   })}
                 </motion.div>
               </div>
-              <motion.div
-                className="col-lg-3 col-md-4 my-auto"
-                variants={fadeIn}
-                initial="hidden"
-                whileInView="show"
-                viewport={viewportOnce}
-              >
-                <div className="owlcard-organizer">
-                  <img
-                    className="organizer-side-img"
-                    src={selectedOranizer}
-                    alt=""
-                  />
-                </div>
-              </motion.div>
             </div>
           </div>
         </div>
