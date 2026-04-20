@@ -79,7 +79,7 @@ const SpeakersLineup = () => {
       id: 7,
       img: `${process.env.PUBLIC_URL}/Khantini.png`,
       name: "Khantini Vijayakumar",
-      pos: "Entrepreneur & Psychologist",
+      pos: "Co-Founder, The Old Mirchi Biriyani<br/> & Psychologist",
       para: "",
       insta: "",
       facebook: "",
