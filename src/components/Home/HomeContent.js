@@ -168,7 +168,7 @@ const HomeContent = () => {
       pos: "Director of Operations, Social eagle",
       insta: "https://www.instagram.com/socialeagleofficial/?hl=en",
       facebook: "https://www.facebook.com/SocialEagleOfficial/",
-      linkedin: "https://www.linkedin.com/company/socialeagle/",
+      linkedin: "https://www.linkedin.com/in/sathish-se/",
     },
     {
       img: require("../../assets/images/organisers/Organisers_Shatheeshram.png"),
