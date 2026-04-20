@@ -69,6 +69,14 @@ const HomeContent = () => {
         "https://www.linkedin.com/in/pradeep-kumar-g-17a5a31b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     },
     {
+      img: require("../../assets/images/Core Commitee_Anbarasan.png"),
+      name: "Anbu Arasan",
+      pos: "",
+      insta: "",
+      facebook: "",
+      linkedin: "",
+    },
+    {
       img: require("../../assets/images/c4.webp"),
       name: "Arun Kumar M G",
       pos: "Founder, cr8ive.in",
