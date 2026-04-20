@@ -524,14 +524,14 @@
   z-index: 1;
   pointer-events: none;
 }
-.home-banner-section .wistia-bg > div,
-.home-banner-section .wistia-bg .wistia_swatch,
-.home-banner-section .wistia-bg .w-css-reset,
-.home-banner-section .wistia-bg .w-css-reset-tree {
-  width: 100% !important;
-  height: 100% !important;
+/* Wistia embed: scale whole player to cover the banner (16:9 to 100vh). */
+.home-banner-section .wistia-bg .wistia_embed {
   position: absolute !important;
-  inset: 0 !important;
+  top: 50% !important;
+  left: 50% !important;
+  width: max(100vw, 177.78vh) !important;
+  height: max(56.25vw, 100vh) !important;
+  transform: translate(-50%, -50%) !important;
 }
 .home-banner-section .wistia-bg .wistia_responsive_padding {
   padding: 0 !important;
@@ -540,29 +540,17 @@
   height: 100% !important;
   width: 100% !important;
 }
-.home-banner-section .wistia-bg .wistia_responsive_wrapper {
-  position: absolute !important;
-  inset: 0 !important;
-  width: 100% !important;
-  height: 100% !important;
-}
+.home-banner-section .wistia-bg .wistia_responsive_wrapper,
 .home-banner-section .wistia-bg .w-video-wrapper {
   position: absolute !important;
   inset: 0 !important;
   width: 100% !important;
   height: 100% !important;
-  overflow: hidden !important;
 }
 .home-banner-section .wistia-bg video,
 .home-banner-section .wistia-bg iframe {
-  position: absolute !important;
-  top: 50% !important;
-  left: 50% !important;
-  width: max(100%, 177.78vh) !important;
-  height: max(100%, 56.25vw) !important;
-  min-width: 100% !important;
-  min-height: 100% !important;
-  transform: translate(-50%, -50%) !important;
+  width: 100% !important;
+  height: 100% !important;
   object-fit: cover !important;
 }
 .home-banner-section video {
