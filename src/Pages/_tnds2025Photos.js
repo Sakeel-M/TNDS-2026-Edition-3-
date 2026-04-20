@@ -50,6 +50,4 @@ export const tnds2025Photos = [
   "TP203539.jpg",
   "TP203761.jpg",
   "TP203846.jpg",
-  "TP203957.jpg",
-  "TP203978.jpg",
 ];
