@@ -70,11 +70,11 @@ const HomeContent = () => {
     },
     {
       img: require("../../assets/images/Core Commitee_Anbarasan.png"),
-      name: "Anbu Arasan",
-      pos: "",
-      insta: "",
+      name: "Anbarasan V N",
+      pos: "Business Development Executive",
+      insta: "https://www.instagram.com/madeby.anbarasan/",
       facebook: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/anbarasan-v-n-bb5180160/",
     },
     {
       img: require("../../assets/images/c4.webp"),
