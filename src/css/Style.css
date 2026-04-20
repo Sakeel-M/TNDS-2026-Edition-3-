@@ -114,7 +114,7 @@
   margin-right: 7px;
 }
 .silver-section {
-  background-image: url("../assets/images/ticket/bg1.webp");
+  background: linear-gradient(160deg, #f5f5f5 0%, #c7c7c7 50%, #e8e8e8 100%);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -187,7 +187,7 @@
 }
 
 .gold-section {
-  background-image: url("../assets/images/ticket/bg2.webp");
+  background: linear-gradient(160deg, #ffd84a 0%, #ffb300 50%, #ffce3d 100%);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -196,7 +196,7 @@
   box-shadow: 0px 16px 80px 0px #3333331f;
 }
 .diamond-section {
-  background-image: url("../assets/images/ticket/bg3.webp");
+  background: linear-gradient(160deg, #2a2a2a 0%, #0c0c0c 50%, #1a1a1a 100%);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
