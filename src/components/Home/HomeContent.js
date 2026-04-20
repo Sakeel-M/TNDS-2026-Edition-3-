@@ -214,7 +214,7 @@ const HomeContent = () => {
               viewport={viewportOnce}
             >
               <h4 className="font-bold text-center text-light pt-2 pb-4">
-                Tamil Nadu’s Biggest and Most Valuable Digital Summit
+                Tamil Nadu’s Biggest and Most Valuable AI & Digital Summit
               </h4>
             </motion.div>
             <motion.div
