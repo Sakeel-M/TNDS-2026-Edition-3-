@@ -88,7 +88,7 @@ const HomeContent = () => {
     {
       img: require("../../assets/images/c5.webp"),
       name: "Devapran Gopalakrishnan",
-      pos: "Co-Founder & CEO, cr8ive.in",
+      pos: "Founder, The Marca Company",
       insta: "https://www.instagram.com/nithis_deva/",
       facebook: "https://www.facebook.com/nithisdeva.pran",
       linkedin:
