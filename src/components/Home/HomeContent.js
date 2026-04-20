@@ -131,11 +131,10 @@ const HomeContent = () => {
 
   const For_Whom_Array = [
     "Business Owners building with AI",
-    "Digital Entrepreneurs scaling<br className='br-tag' /> to the next level",
-    "Founders moving from hustle<br className='br-tag' /> to systems",
+    "Founders moving into<br className='br-tag' /> scalable systems",
     "Coaches & Consultants<br className='br-tag' /> going digital-first",
-    "Content Creators building a<br className='br-tag' /> business, not just an audience",
-    "Community Members ready<br className='br-tag' /> to level up",
+    "Content Creators building a<br className='br-tag' /> business leveraging AI",
+    "Community Members ready<br className='br-tag' /> to level up using AI",
     "Agency Owners integrating AI<br className='br-tag' /> into services",
     "E-Commerce Owners<br className='br-tag' /> optimising with AI",
   ];
