@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
-import Video from "../../assets/videos/banner-video.mp4";
 import Location from "../../assets/images/location.webp";
 import TicketWhite from "../../assets/images/ticket-white.webp";
 import TicketBlack from "../../assets/images/ticket-black.webp";
@@ -8,6 +7,8 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { scrollToSection } from "../../common/utills";
 import TimerSection from "../../common/TimerSection";
 import BannerTimer from "../../common/BannerTimer";
+
+const WISTIA_MEDIA_ID = "h2vucc7reh";
 
 const EASE = [0.22, 0.61, 0.36, 1];
 const bannerItem = (delay) => ({
@@ -23,12 +24,35 @@ const HomeBanner = () => {
       window.scroll(0, 0);
     }
   }, []);
+  useEffect(() => {
+    const scriptIds = ["wistia-player-js", "wistia-media-js"];
+    const existing = new Set(Array.from(document.scripts).map((s) => s.src));
+    const playerSrc = "https://fast.wistia.com/assets/external/E-v1.js";
+    const mediaSrc = `https://fast.wistia.com/embed/medias/${WISTIA_MEDIA_ID}.jsonp`;
+    if (!existing.has(playerSrc)) {
+      const s = document.createElement("script");
+      s.src = playerSrc;
+      s.async = true;
+      s.id = scriptIds[0];
+      document.body.appendChild(s);
+    }
+    if (!existing.has(mediaSrc)) {
+      const s = document.createElement("script");
+      s.src = mediaSrc;
+      s.async = true;
+      s.id = scriptIds[1];
+      document.body.appendChild(s);
+    }
+  }, []);
   return (
     <>
       <div className="home-banner-section">
-        <video autoPlay loop muted>
-          <source src={Video} type="video/mp4" />
-        </video>
+        <div className="wistia-bg">
+          <div
+            className={`wistia_embed wistia_async_${WISTIA_MEDIA_ID} autoPlay=true muted=true silentAutoPlay=allow controlsVisibleOnLoad=false endVideoBehavior=loop playbar=false fullscreenButton=false smallPlayButton=false playButton=false settingsControl=false volumeControl=false videoFoam=true playerColor=000000`}
+            style={{ height: "100%", width: "100%", position: "relative" }}
+          >&nbsp;</div>
+        </div>
         <div className="overlay"></div>
         <div className="home-video-content">
           <div className="container">

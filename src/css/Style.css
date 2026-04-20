@@ -513,6 +513,25 @@
   );
   z-index: 2;
 }
+.home-banner-section .wistia-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+  pointer-events: none;
+}
+.home-banner-section .wistia-bg > div {
+  width: 100%;
+  height: 100%;
+}
+.home-banner-section .wistia-bg iframe,
+.home-banner-section .wistia-bg video {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+}
 .home-banner-section video {
   width: 100%;
   height: 100%;
