@@ -14,21 +14,11 @@ import {
   hoverLift,
 } from "../common/motionVariants";
 
-const TndsLogo = `${process.env.PUBLIC_URL}/${encodeURIComponent("TNDS 2026 Logo White.png")}`;
-
 const TicketPage = () => {
   return (
     <div className="bg-dark">
       <div className="ticket-page">
         <div className="container">
-          <motion.div
-            className="mx-auto text-center"
-            variants={fadeUp}
-            initial="hidden"
-            animate="show"
-          >
-            <img className="ticket-tnds-logo" src={TndsLogo} alt="" />
-          </motion.div>
           <motion.div variants={fadeUp} initial="hidden" animate="show">
             <h1 className="ticket-page-heading">
               Event Ticket <br /> categories

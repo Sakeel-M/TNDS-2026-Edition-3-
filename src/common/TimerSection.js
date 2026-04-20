@@ -15,8 +15,8 @@ const TimerSection = () => {
   });
 
   useEffect(() => {
-    // Target date: 23 May 2026 00:00:00
-    const targetDate = new Date(2026, 4, 23); // Note: Months are zero-based, so 4 is May
+    // Early bird offer ends: 25 April 2026 00:00:00 (5 days from 2026-04-20)
+    const targetDate = new Date(2026, 3, 25); // Note: Months are zero-based, so 3 is April
 
     const interval = setInterval(() => {
       const currentDate = new Date();
