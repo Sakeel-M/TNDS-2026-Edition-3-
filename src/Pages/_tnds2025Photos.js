@@ -1,10 +1,10 @@
 export const tnds2025Photos = [
-  "_CP14854.jpg",
   "_CP30362.jpg",
+  "_CP14854.jpg",
   "_CP31499.jpg",
   "_TP11651.jpg",
-  "_TP11707.jpg",
   "CP200292.jpg",
+  "_TP11707.jpg",
   "CP200744.jpg",
   "CP205298.JPG",
   "TP109047.jpg",
