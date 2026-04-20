@@ -87,7 +87,7 @@ const SpeakersLineup = () => {
     },
     {
       id: 8,
-      img: require("../../assets/images/speakers/s8.webp"),
+      img: require("../../assets/images/ticket/007.Aathitiyan V S.png"),
       name: "Aathitiyan V S",
       pos: "Founder & CEO, Cookd",
       para: "",
