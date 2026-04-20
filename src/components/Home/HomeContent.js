@@ -398,12 +398,12 @@ const HomeContent = () => {
                 <div className="col-lg-7 col-md-7 col-7">
                   <img
                     className="w-100 h-auto mb-3 recap25-photo"
-                    src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/TP201732.jpg`}
+                    src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/CP200292.jpg`}
                     alt="TNDS 2025"
                   />
                   <img
                     className="w-100 h-auto recap25-photo"
-                    src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/CP200292.jpg`}
+                    src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/TP201732.jpg`}
                     alt="TNDS 2025"
                   />
                 </div>
@@ -444,12 +444,12 @@ const HomeContent = () => {
                 <div className="col-lg-7 col-md-7 col-7">
                   <img
                     className="w-100 h-auto mb-3 recap25-photo"
-                    src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/CP200744.jpg`}
+                    src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/TP200647.jpg`}
                     alt="TNDS 2025"
                   />
                   <img
                     className="w-100 h-auto recap25-photo"
-                    src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/TP200647.jpg`}
+                    src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/CP200744.jpg`}
                     alt="TNDS 2025"
                   />
                 </div>
@@ -896,8 +896,8 @@ const HomeContent = () => {
           </div>
         </div>
       </div>
-      <div className="Speakers-lineup scroll-top-margin" id="Speakers">
-        <div className="bg-blue-gradient">
+      <div className="Speakers-lineup">
+        <div className="bg-blue-gradient scroll-top-margin" id="Speakers">
           <div className="container">
             <motion.div
               className="row justify-content-center"
