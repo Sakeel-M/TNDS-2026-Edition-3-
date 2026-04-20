@@ -1054,12 +1054,14 @@
 }
 .bg-rounded-learn-num {
   background: linear-gradient(90deg, #030c41 0%, #071da7 100%);
-  border-radius: 50px;
+  border-radius: 50%;
   width: 50px;
   height: 50px;
+  min-width: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
 }
 .rounded-learn-num {
   background: linear-gradient(180deg, #fdee00 26.12%, #ef7900 73.13%);
@@ -1073,12 +1075,12 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 10px;
+  gap: 14px;
   margin-bottom: 30px;
   border-bottom: 1px dashed #ccc;
   padding-bottom: 30px;
   flex-shrink: 0;
-  height: calc(100% - 30px);
+  min-height: 110px;
 }
 .get-ready-df-text {
   font-size: 42px;
