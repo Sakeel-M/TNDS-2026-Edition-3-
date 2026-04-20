@@ -184,20 +184,20 @@ const HomeContent = () => {
     {
       img: require("../../assets/images/organisers/Organisers_Akshaya.png"),
       img2: require("../../assets/images/organisers/Organisers_Akshaya2.png"),
-      name: "Akshaya",
+      name: "Akshaya R",
       pos: "Manager - Systems and Processes, Social Eagle",
-      insta: "",
+      insta: "https://www.instagram.com/akshaya.shatheeshram?igsh=MWg3YXZqcjE4bWlidw%3D%3D&utm_source=qr",
       facebook: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/akshaya-shatheeshram-62a7a338/",
     },
     {
       img: require("../../assets/images/organisers/Organisers_Archana.png"),
       img2: require("../../assets/images/organisers/Organisers_Archana2.png"),
       name: "Archana",
       pos: "Head - New Initiatives, Social Eagle",
-      insta: "",
+      insta: "https://www.instagram.com/edupreneur_archana?igsh=MWRxaHQ4bDVxcmI3bA==",
       facebook: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/archana-053019375/",
     },
   ];
   const [selectedOrgIdx, setSelectedOrgIdx] = useState(0);
