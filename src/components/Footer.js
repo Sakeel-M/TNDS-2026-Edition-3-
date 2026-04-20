@@ -69,12 +69,12 @@ const Footer = () => {
             </motion.div>
           </div>
           <div className="row align-items-center pb-3 mb-4 border-bottom-light">
-            <div className="col-lg-3 col-md-4 mb-lg-0 mb-md-4">
+            <div className="col-lg-3 col-md-4 mb-lg-0 mb-md-4 text-center text-lg-start">
               <div className="mb-3">
                 <img className="header-logo" src={Logo} alt="" />
               </div>
-              <div className="">
-                <ul className="list-unstyled footer-list mb-3">
+              <div className="footer-social-wrap">
+                <ul className="list-unstyled footer-list mb-3 justify-content-center justify-content-lg-start">
                   <li>
                     <a
                       href="https://www.instagram.com/tndigitalsummit/"
