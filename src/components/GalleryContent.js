@@ -29,7 +29,7 @@ const GalleryContent = () => {
             viewport={viewportOnce}
           >
             <div className="Gallery-border  font-bold-clash">
-              TNDS 2024 — Where It Began
+              TNDS 2024 - Where It Began
             </div>
           </motion.div>
         </div>

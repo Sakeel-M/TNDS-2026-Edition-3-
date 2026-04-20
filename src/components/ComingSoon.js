@@ -23,7 +23,7 @@ const ComingSoon = ({ title }) => {
               </h2>
             </div>
             <p className="text-dark mt-4 mb-0" style={{ fontSize: "1.1rem" }}>
-              We're lining this up for TNDS 2026. Stay tuned — full details drop
+              We're lining this up for TNDS 2026. Stay tuned - full details drop
               closer to May 23 & 24, 2026.
             </p>
           </motion.div>

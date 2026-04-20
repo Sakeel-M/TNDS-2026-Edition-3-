@@ -1,6 +1,6 @@
 import React from "react";
 import CustomModal from "./CustomModal";
-import Thankyou from "../assets/images/tnds-2026-logo.png";
+const Thankyou = `${process.env.PUBLIC_URL}/${encodeURIComponent("TNDS 2026 Logo White.png")}`;
 const ThankYouModal = ({ open, setOpen }) => {
   return (
     <div>

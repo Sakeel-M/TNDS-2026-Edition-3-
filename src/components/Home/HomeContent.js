@@ -90,34 +90,34 @@ const HomeContent = () => {
 
   const learnData = [
     {
-      text: "<strong>AI-Powered Business Operations</strong> — Turn AI from a buzzword into a working layer inside your business",
+      text: "<strong>AI-Powered Business Operations</strong> - Turn AI from a buzzword into a working layer inside your business",
     },
     {
-      text: "<strong>The Meta Update</strong> — What's shifted in the ecosystem: new frameworks, new rules, new opportunities",
+      text: "<strong>The Meta Update</strong> - What's shifted in the ecosystem: new frameworks, new rules, new opportunities",
     },
     {
-      text: "<strong>Visionary Thinking</strong> — Mental models that separate 10-year builders from 1-year operators",
+      text: "<strong>Visionary Thinking</strong> - Mental models that separate 10-year builders from 1-year operators",
     },
     {
-      text: "<strong>Frameworks That Scale</strong> — Proven systems for growth, not theory",
+      text: "<strong>Frameworks That Scale</strong> - Proven systems for growth, not theory",
     },
     {
-      text: "<strong>Building Digital Teams with AI</strong> — Your next team member doesn't need a salary, it needs a prompt",
+      text: "<strong>Building Digital Teams with AI</strong> - Your next team member doesn't need a salary, it needs a prompt",
     },
     {
-      text: "<strong>Real Business Transformations</strong> — Stories from people who were where you are",
+      text: "<strong>Real Business Transformations</strong> - Stories from people who were where you are",
     },
     {
-      text: "<strong>Leadership in the AI Era</strong> — Lead teams, make decisions, stay relevant",
+      text: "<strong>Leadership in the AI Era</strong> - Lead teams, make decisions, stay relevant",
     },
     {
-      text: "<strong>Revenue Models for the Next 3 Years</strong> — What's working, what's about to stop, where to bet",
+      text: "<strong>Revenue Models for the Next 3 Years</strong> - What's working, what's about to stop, where to bet",
     },
     {
-      text: "<strong>Insights from Iconic Founders</strong> — Lessons from people who've built companies you respect",
+      text: "<strong>Insights from Iconic Founders</strong> - Lessons from people who've built companies you respect",
     },
     {
-      text: "<strong>The Power of Community</strong> — 600+ entrepreneurs building together",
+      text: "<strong>The Power of Community</strong> - 600+ entrepreneurs building together",
     },
   ];
 
@@ -295,12 +295,12 @@ const HomeContent = () => {
                 <motion.div className="col-lg-7 " variants={fadeUp}>
                   <div>
                     <p>
-                      Tamil Nadu Digital Summit began as a movement — a gathering
+                      Tamil Nadu Digital Summit began as a movement - a gathering
                       of entrepreneurs, business leaders, and digital builders
                       committed to making Tamil Nadu a force in the digital economy.
                     </p>
                     <p>
-                      Now in its third edition, TNDS 2026 goes deeper — into
+                      Now in its third edition, TNDS 2026 goes deeper - into
                       visionary thinking and AI-native business building. 600+
                       handpicked entrepreneurs. High-signal speakers. The Eagle
                       Awards. And a community that's been building wins together

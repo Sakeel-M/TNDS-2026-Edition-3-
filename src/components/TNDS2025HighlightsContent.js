@@ -26,7 +26,7 @@ const TNDS2025HighlightsContent = () => {
               src={require("../assets/images/recap/recap-design.webp")}
               alt=""
             />
-            <h2 className="recap-heading">TNDS 2025 — The Recap</h2>
+            <h2 className="recap-heading">TNDS 2025 - The Recap</h2>
           </motion.div>
           <motion.div
             className="d-flex Gallery-head1 pt-3 pb-5"

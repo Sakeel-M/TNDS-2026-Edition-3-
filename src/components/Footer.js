@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Logo from "../assets/images/tnds-2026-logo.png";
+const Logo = `${process.env.PUBLIC_URL}/${encodeURIComponent("TNDS 2026 Logo White.png")}`;
 import TicketWhite from "../assets/images/ticket-white.webp";
 import TicketBlack from "../assets/images/ticket-black.webp";
 import SELogo from "../assets/images/SE-logo.webp";
