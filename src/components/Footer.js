@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import TicketWhite from "../assets/images/ticket-white.webp";
 import TicketBlack from "../assets/images/ticket-black.webp";
-import SELogo from "../assets/images/SE-logo.webp";
+import SELogo from "../assets/images/ticket/SocialEagle 2026 New Logo-05.png";
 import CallIcon from "../assets/images/ticket/call.webp";
 import EnvelopIcon from "../assets/images/ticket/envelop.webp";
 import FooterDesign1 from "../assets/images/footer-design1.webp";
