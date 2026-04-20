@@ -360,10 +360,9 @@ const HomeContent = () => {
                   <i class="quote-left fa-solid fa-quote-left"></i>
                   <i class="quote-right fa-solid fa-quote-right"></i>
                   <h5 className="quote-content">
-                    Tamil Nadu's biggest and most valuable digital summit,{" "}
+                    Two days. One stage. Tamil Nadu’s next decade of{" "}
                     <br className="br-tag" />
-                    built to make Tamil Nadu and its Entrepreneurs{" "}
-                    <br className="br-tag" /> AI-ready for the next decade.
+                    AI-led entrepreneurs starts here.
                   </h5>
                 </div>
               </motion.div>
