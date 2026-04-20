@@ -57,7 +57,7 @@ const SpeakersLineup = () => {
     },
     {
       id: 5,
-      img: require("../../assets/images/speakers/s5.webp"),
+      img: require("../../assets/images/ticket/004.Preethi Shashikumar.png"),
       name: "Preethi Shashikumar",
       pos: "Founder, Prrethiwear",
       para: "",
