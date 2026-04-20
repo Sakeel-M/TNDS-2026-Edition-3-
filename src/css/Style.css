@@ -1078,6 +1078,7 @@
   border-bottom: 1px dashed #ccc;
   padding-bottom: 30px;
   flex-shrink: 0;
+  height: calc(100% - 30px);
 }
 .get-ready-df-text {
   font-size: 42px;
