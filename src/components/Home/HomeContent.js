@@ -303,20 +303,16 @@ const HomeContent = () => {
                       committed to making Tamil Nadu a force in the digital economy.
                     </p>
                     <p>
-                      Now in its third edition, TNDS 2026 goes deeper - into
-                      visionary thinking and AI-native business building. 600+
-                      handpicked entrepreneurs. High-signal speakers. The Eagle
-                      Awards. And a community that's been building wins together
-                      since 2020.
+                      Now in its third edition, TNDS 2026 is about visionary
+                      thinking and building AI native businesses. Founders who
+                      have built and scaled their business with AI, The Eagle
+                      Awards and a community that’s been building together since
+                      2020.
                     </p>
                     <p>
                       Expect battle-tested frameworks, real AI applications, and
                       conversations that challenge how you think about the next
                       decade of your business.
-                    </p>
-                    <p>
-                      Because the entrepreneurs who'll define Tamil Nadu's next
-                      decade are already in this room.
                     </p>
                   </div>
                 </motion.div>
