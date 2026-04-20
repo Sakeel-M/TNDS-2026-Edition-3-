@@ -1,5 +1,4 @@
 export const tnds2025Photos = [
-  "_CP14854 (1).jpg",
   "_CP14854.jpg",
   "_CP30362.jpg",
   "_CP31499.jpg",
