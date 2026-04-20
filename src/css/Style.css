@@ -584,7 +584,7 @@
   margin-left: 20px;
 }
 .banner-logo {
-  width: 120px;
+  width: 260px;
   height: auto;
 }
 
@@ -1784,6 +1784,35 @@
   transform: scale(1.05);
   filter: brightness(1.05);
 }
+
+/* --- TNDS 2025 Highlights bento mosaic --- */
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 180px;
+  gap: 16px;
+}
+.bento-tile {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+.bento-tile img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.35s ease, filter 0.35s ease;
+}
+.bento-tile:hover img {
+  transform: scale(1.05);
+  filter: brightness(1.05);
+}
+.bento-sm   { grid-column: span 2; grid-row: span 1; }
+.bento-wide { grid-column: span 2; grid-row: span 2; }
+.bento-sq   { grid-column: span 2; grid-row: span 2; }
 
 @media (prefers-reduced-motion: reduce) {
   *,

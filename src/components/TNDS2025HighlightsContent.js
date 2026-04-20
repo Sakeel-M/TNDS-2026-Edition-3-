@@ -42,25 +42,27 @@ const TNDS2025HighlightsContent = () => {
         </div>
 
         <div className="container pb-5">
-          <div className="row g-3 tnds25-grid">
-            {tnds2025Photos.map((file, i) => (
-              <motion.div
-                className="col-lg-4 col-md-6 col-6"
-                key={file}
-                variants={scaleIn}
-                initial="hidden"
-                whileInView="show"
-                viewport={{ once: true, amount: 0.1 }}
-              >
-                <div className="tnds25-tile">
+          <div className="bento-grid">
+            {tnds2025Photos.map((file, i) => {
+              const pattern = ["bento-sm", "bento-sm", "bento-wide", "bento-wide", "bento-sq"];
+              const cls = pattern[i % pattern.length];
+              return (
+                <motion.div
+                  className={`bento-tile ${cls}`}
+                  key={file}
+                  variants={scaleIn}
+                  initial="hidden"
+                  whileInView="show"
+                  viewport={{ once: true, amount: 0.1 }}
+                >
                   <img
                     src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/${encode(file)}`}
                     alt={`TNDS 2025 highlight ${i + 1}`}
                     loading="lazy"
                   />
-                </div>
-              </motion.div>
-            ))}
+                </motion.div>
+              );
+            })}
           </div>
         </div>
 
