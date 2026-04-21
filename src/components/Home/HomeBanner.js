@@ -24,34 +24,18 @@ const HomeBanner = () => {
       window.scroll(0, 0);
     }
   }, []);
-  useEffect(() => {
-    const scriptIds = ["wistia-player-js", "wistia-media-js"];
-    const existing = new Set(Array.from(document.scripts).map((s) => s.src));
-    const playerSrc = "https://fast.wistia.com/assets/external/E-v1.js";
-    const mediaSrc = `https://fast.wistia.com/embed/medias/${WISTIA_MEDIA_ID}.jsonp`;
-    if (!existing.has(playerSrc)) {
-      const s = document.createElement("script");
-      s.src = playerSrc;
-      s.async = true;
-      s.id = scriptIds[0];
-      document.body.appendChild(s);
-    }
-    if (!existing.has(mediaSrc)) {
-      const s = document.createElement("script");
-      s.src = mediaSrc;
-      s.async = true;
-      s.id = scriptIds[1];
-      document.body.appendChild(s);
-    }
-  }, []);
   return (
     <>
       <div className="home-banner-section">
         <div className="wistia-bg">
-          <div
-            className={`wistia_embed wistia_async_${WISTIA_MEDIA_ID} autoPlay=true muted=true silentAutoPlay=allow controlsVisibleOnLoad=false endVideoBehavior=loop playbar=false fullscreenButton=false smallPlayButton=false playButton=false settingsControl=false volumeControl=false videoFoam=true playerColor=000000`}
-            style={{ height: "100%", width: "100%", position: "relative" }}
-          >&nbsp;</div>
+          <iframe
+            src={`https://fast.wistia.net/embed/iframe/${WISTIA_MEDIA_ID}?autoPlay=true&muted=true&silentAutoPlay=allow&endVideoBehavior=loop&controlsVisibleOnLoad=false&playbar=false&fullscreenButton=false&smallPlayButton=false&playButton=false&settingsControl=false&volumeControl=false&playerColor=000000`}
+            title="TNDS Hero Video"
+            allow="autoplay; fullscreen"
+            allowFullScreen
+            frameBorder="0"
+            className="wistia-iframe"
+          ></iframe>
         </div>
         <div className="overlay"></div>
         <div className="home-video-content">
