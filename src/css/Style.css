@@ -52,9 +52,10 @@
 }
 .price-text {
   font-family: "LeagueSpartan-Bold";
-  font-size: 19px;
+  font-size: 16px;
   text-align: center;
   white-space: nowrap;
+  line-height: 1.2;
   /* text-transform: uppercase; */
 }
 .ticket-page-heading {
@@ -1769,12 +1770,13 @@
   width: 100%;
   z-index: 99;
   bottom: 0;
+  padding: 4px 0;
 }
 .gradient-text {
-  /* background: radial-gradient(50% 50% at 50% 50%, #071da7 0%, #030b41 100%);
-  -webkit-background-clip: text; */
   color: #000;
   font-family: "ClashDisplay-Bold";
+  font-size: 24px;
+  line-height: 1;
   margin-bottom: 0;
 }
 
@@ -1782,14 +1784,14 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 5px 40px 5px;
+  padding: 2px 14px;
 }
 
 .counter-text {
   font-family: "ClashDisplay-Medium";
-  /* background: radial-gradient(50% 50% at 50% 50%, #071da7 0%, #030b41 100%);
-  -webkit-background-clip: text; */
   color: #000;
+  font-size: 13px;
+  line-height: 1.1;
   margin-bottom: 0;
 }
 .flex-align-center {

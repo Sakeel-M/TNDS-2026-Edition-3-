@@ -53,61 +53,45 @@ const TimerSection = () => {
       ) : (
         <div className="day-count-section">
           <div className="container-fluid">
-            <div className="row justify-content-center">
-              <div className="col-lg-12">
-                <div className="row justify-content-center py-lg-1">
-                  <div className="col-12 text-center mb-2">
-                    <h5 className="price-text mb-0 text-center d-inline-block">Early Bird Offer Ends In :</h5>
+            <div className="row justify-content-center align-items-center g-2">
+              <div className="col-12 col-lg-auto text-center">
+                <h5 className="price-text mb-0">Revised Early Bird Offer Ends In :</h5>
+              </div>
+              <div className="col-12 col-lg-auto">
+                <div className="d-flex justify-content-center align-items-center">
+                  <div className="single-box">
+                    <h1 className="gradient-text">{days}</h1>
+                    <sub>
+                      <h5 className="counter-text">Days</h5>
+                    </sub>
                   </div>
-                  <div className="col-lg-2 col-6">
-                    <div className="flex-align-center">
-                      <div className="single-box gap-2">
-                        <h1 className="gradient-text">{days}</h1>
-                        <sub>
-                          <h5 className="counter-text">Days</h5>
-                        </sub>
-                      </div>
-                      <h5 className="counter-text count-colun">:</h5>
-                    </div>
+                  <h5 className="counter-text count-colun">:</h5>
+                  <div className="single-box">
+                    <h1 className="gradient-text">{hours}</h1>
+                    <sub>
+                      <h5 className="counter-text">Hours</h5>
+                    </sub>
                   </div>
-                  <div className="col-lg-2  col-6">
-                    <div className="flex-align-center">
-                      <div className="single-box gap-2">
-                        <h1 className="gradient-text">{hours}</h1>
-                        <sub>
-                          <h5 className="counter-text">Hours</h5>
-                        </sub>
-                      </div>
-                      <h5 className="counter-text count-colun">:</h5>
-                    </div>
+                  <h5 className="counter-text count-colun">:</h5>
+                  <div className="single-box">
+                    <h1 className="gradient-text">{minutes}</h1>
+                    <sub>
+                      <h5 className="counter-text">Minutes</h5>
+                    </sub>
                   </div>
-                  <div className="col-lg-2  col-6">
-                    <div className="flex-align-center">
-                      <div className="single-box gap-2">
-                        <h1 className="gradient-text">{minutes}</h1>
-                        <sub>
-                          <h5 className="counter-text">Minutes</h5>
-                        </sub>
-                      </div>
-                      <h5 className="counter-text count-colun ">:</h5>
-                    </div>
-                  </div>
-                  <div className="col-lg-2  col-6">
-                    <div className="flex-align-center">
-                      <div className="single-box gap-2">
-                        <h1 className="gradient-text">{seconds}</h1>
-                        <sub>
-                          <h5 className="counter-text">Seconds</h5>
-                        </sub>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-lg-2 d-lg-block d-none m-auto text-center col-6">
-                    <button onClick={()=>navigate('/Ticket')}
-                      className={`btn btn-anim-contact rounded-pill w-auto py-2 px-4 `}
-                    >Buy Ticket</button>
+                  <h5 className="counter-text count-colun">:</h5>
+                  <div className="single-box">
+                    <h1 className="gradient-text">{seconds}</h1>
+                    <sub>
+                      <h5 className="counter-text">Seconds</h5>
+                    </sub>
                   </div>
                 </div>
+              </div>
+              <div className="col-lg-auto d-none d-lg-block">
+                <button onClick={() => navigate('/Ticket')}
+                  className={`btn btn-anim-contact rounded-pill w-auto py-2 px-4 `}
+                >Buy Ticket</button>
               </div>
             </div>
           </div>
