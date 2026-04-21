@@ -53,7 +53,7 @@
 .price-text {
   font-family: "LeagueSpartan-Bold";
   font-size: 19px;
-  text-align: end;
+  text-align: center;
   white-space: nowrap;
   /* text-transform: uppercase; */
 }
@@ -210,6 +210,9 @@
 .crown-width {
   width: 110px;
   height: auto;
+  position: relative;
+  z-index: 2;
+  margin-bottom: -24px;
 }
 .bg-ticket-amount {
   background: linear-gradient(90deg, #090d3f 0%, #131e8d 100%);
