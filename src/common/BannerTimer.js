@@ -46,7 +46,7 @@ const BannerTimer = () => {
         <p className="live-in-content mb-lg-4 mb-2">‘LIVE’ in Chennai</p>
       ) : (
         <div className="text-center d-flex justify-content-center align-items-center gap-lg-4 gap-2 mb-lg-4  mb-2">
-          <p className="text-light price-text mb-0 d-lg-block d-none">Event Starts In :</p>
+          <p className="text-light price-text mb-0">Event Starts In :</p>
           <div>
             <span className="fs-lg-2 fs-4 font-bold text-light">
               {days}

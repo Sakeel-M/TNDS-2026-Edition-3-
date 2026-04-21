@@ -56,7 +56,7 @@ const TimerSection = () => {
             <div className="row justify-content-center">
               <div className="col-lg-12">
                 <div className="row justify-content-center py-lg-1">
-                  <div className="col-lg-2 d-lg-block d-none m-auto col-6">
+                  <div className="col-lg-2 col-12 m-auto text-center text-lg-end mb-2 mb-lg-0">
                     <h5 className="price-text mb-0">Early Bird Offer Ends In :</h5>
                   </div>
                   <div className="col-lg-2 col-6">
