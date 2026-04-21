@@ -27,7 +27,7 @@ const TicketPage = () => {
         </div>
         <div className="ticket-se-logo-bg py-4 mb-5">
           <h5 className="exclusive-text-heading pt-2 mb-0">
-            Exclusive Community offer price
+            Early Bird Offer Price
           </h5>
         </div>
         <div className="container">
