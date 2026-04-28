@@ -59,7 +59,7 @@ const SpeakersLineup = () => {
       id: 5,
       img: require("../../assets/images/ticket/004.Preethi Shashikumar.png"),
       name: "Preethi Shashikumar",
-      pos: "Founder, Prrethiwear",
+      pos: "Founder, Preethi Wear",
       para: "",
       insta: "https://www.instagram.com/preethi__shashikumar?igsh=aTFqNnE0bjdjdWNr",
       facebook: "",
