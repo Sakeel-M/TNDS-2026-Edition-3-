@@ -125,6 +125,16 @@ const SpeakersLineup = () => {
       facebook: "https://www.facebook.com/KannanGireeshPsychiatrist/",
       linkedin: "https://in.linkedin.com/in/dr-kannan-gireesh-7ba74415",
     },
+    {
+      id: 12,
+      img: `${process.env.PUBLIC_URL}/Arthi.png`,
+      name: "Arthi Raguram",
+      pos: "Founder, Deyga",
+      para: "",
+      insta: "https://www.instagram.com/arthiraguram/",
+      facebook: "",
+      linkedin: "https://in.linkedin.com/in/arthi-raguram-73150a312",
+    },
   ];
 
   return (
