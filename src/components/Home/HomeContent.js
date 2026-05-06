@@ -172,8 +172,8 @@ const HomeContent = () => {
       linkedin: "https://www.linkedin.com/in/shatheeshram-ganapathy-a7476473/",
     },
     {
-      img: require("../../assets/images/organisers/Manoj_c2.jpg"),
-      img2: require("../../assets/images/organisers/Manoj.png"),
+      img: require("../../assets/images/organisers/Manoj.png"),
+      img2: require("../../assets/images/organisers/Manoj_c2.jpg"),
       name: "Manoj Kumar",
       pos: "Chief AI Mentor, SocialEagle.AI",
       insta: "https://www.instagram.com/the_ai_dude?igsh=cXgwM3VzYjRhd3g5",
@@ -182,8 +182,8 @@ const HomeContent = () => {
       linkedin: "https://www.linkedin.com/in/manojkumar-vasudevan-6369b1131?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     },
     {
-      img: require("../../assets/images/organisers/Thiru_c2.jpg"),
-      img2: require("../../assets/images/organisers/Thiru.png"),
+      img: require("../../assets/images/organisers/Thiru.png"),
+      img2: require("../../assets/images/organisers/Thiru_c2.jpg"),
       name: "Thirumurugan",
       pos: "Chief AI Expert, SocialEagle.AI",
       insta: "https://www.instagram.com/ai_with_thiru?igsh=aXNlZXQybTRjOHAw",
@@ -192,8 +192,8 @@ const HomeContent = () => {
       linkedin: "https://www.linkedin.com/in/thirumurugan-r-85a41b24a?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     },
     {
-      img: require("../../assets/images/organisers/Sakeel_c2.jpg"),
-      img2: require("../../assets/images/organisers/Sakeel.png"),
+      img: require("../../assets/images/organisers/Sakeel.png"),
+      img2: require("../../assets/images/organisers/Sakeel_c2.jpg"),
       name: "Mohamed Sakeel",
       pos: "Chief AI Expert, SocialEagle.AI",
       insta: "https://www.instagram.com/sakeel_05_?igsh=MWgybzk5aDE1enI3eQ==",
