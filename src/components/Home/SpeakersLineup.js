@@ -135,6 +135,16 @@ const SpeakersLineup = () => {
       facebook: "",
       linkedin: "https://in.linkedin.com/in/arthi-raguram-73150a312",
     },
+    {
+      id: 13,
+      img: `${process.env.PUBLIC_URL}/13.Niveda Ravikumar.png`,
+      name: "Niveda Ravikumar",
+      pos: "Co-Founder & CEO, Bliss Natural",
+      para: "",
+      insta: "",
+      facebook: "",
+      linkedin: "",
+    },
   ];
 
   return (
