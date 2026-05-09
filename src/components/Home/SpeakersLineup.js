@@ -137,13 +137,13 @@ const SpeakersLineup = () => {
     },
     {
       id: 13,
-      img: `${process.env.PUBLIC_URL}/13.Niveda Ravikumar.png`,
+      img: require("../../assets/images/ticket/Niveda R profile.png"),
       name: "Niveda Ravikumar",
       pos: "Co-Founder & CEO, Bliss Natural",
       para: "",
-      insta: "",
+      insta: "https://www.instagram.com/niveda_ravikumar/",
       facebook: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/niveda-ravikumar-50a39a145/",
     },
   ];
 
