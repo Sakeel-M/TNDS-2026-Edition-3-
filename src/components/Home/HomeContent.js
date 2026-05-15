@@ -165,7 +165,7 @@ const HomeContent = () => {
       img: require("../../assets/images/organisers/Organisers_Shatheeshram.png"),
       img2: require("../../assets/images/organisers/Organisers_Shatheeshram2.png"),
       name: "Shatheeshram Ganapathy",
-      pos: "Director of Sales, Social eagle",
+      pos: "Director of Sales, SocialEagle.AI",
       insta:
         "https://www.instagram.com/shatheeshramganapathy/?igsh=MW5nYzc4Nmh3OXJvdQ%3D%3D#",
       facebook: "https://www.facebook.com/shatheeshram?mibextid=ZbWKwL",
