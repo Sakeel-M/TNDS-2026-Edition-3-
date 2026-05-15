@@ -155,7 +155,7 @@ const HomeContent = () => {
     {
       img: require("../../assets/images/organisers/Organisers_Vishnu Hari.png"),
       img2: require("../../assets/images/organisers/Organisers_Vishnu Hari2.png"),
-      name: "Vishnuhari",
+      name: "Vishnuhari H",
       pos: "Co-Founder - Social Eagle, EX AIRBNB",
       insta: "https://www.instagram.com/imvishnuhari/",
       facebook: "https://www.facebook.com/imvishnuhari?mibextid=ZbWKwL",
@@ -175,7 +175,7 @@ const HomeContent = () => {
       img: require("../../assets/images/organisers/Manoj.png"),
       img2: require("../../assets/images/organisers/Manoj_c2.jpg"),
       name: "Manoj Kumar",
-      pos: "Chief AI Mentor, SocialEagle.AI",
+      pos: "Director, SocialEagle.AI",
       insta: "https://www.instagram.com/the_ai_dude?igsh=cXgwM3VzYjRhd3g5",
       youtube: "https://youtube.com/@theaidude-tamil",
       facebook: "",
