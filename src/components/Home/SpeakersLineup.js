@@ -129,7 +129,7 @@ const SpeakersLineup = () => {
       id: 12,
       img: `${process.env.PUBLIC_URL}/Arthi.png`,
       name: "Arthi Raguram",
-      pos: "Founder, Deyga",
+      pos: "Founder, Deyga Organics",
       para: "",
       insta: "https://www.instagram.com/arthiraguram/",
       facebook: "",
