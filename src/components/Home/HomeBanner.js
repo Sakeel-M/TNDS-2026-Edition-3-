@@ -119,6 +119,8 @@ const HomeBanner = () => {
           <div className="hero-logos-track">
             <img src={AllLogos} alt="" />
             <img src={AllLogos} alt="" />
+            <img src={AllLogos} alt="" />
+            <img src={AllLogos} alt="" />
           </div>
         </div>
       </div>

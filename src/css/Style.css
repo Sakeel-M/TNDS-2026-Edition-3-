@@ -560,17 +560,17 @@
 }
 .hero-logos-track img {
   display: block;
-  height: 80px;
+  height: 50px;
   width: auto;
   flex: 0 0 auto;
 }
 @keyframes hero-logos-scroll {
-  0%   { transform: translateX(-50%); }
+  0%   { transform: translateX(-25%); }
   100% { transform: translateX(0); }
 }
 @media (max-width: 900px) {
   .hero-logos-marquee { padding: 2px 0; }
-  .hero-logos-track img { height: 56px; }
+  .hero-logos-track img { height: 36px; }
 }
 .navbar {
   position: fixed;
