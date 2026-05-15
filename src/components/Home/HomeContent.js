@@ -79,7 +79,7 @@ const HomeContent = () => {
     {
       img: require("../../assets/images/c4.webp"),
       name: "Arun Kumar M G",
-      pos: "Founder, cr8ive.in",
+      pos: "Founder, Cr8ive.in",
       insta: "https://www.instagram.com/arunkumar_m_g/",
       facebook: "https://www.facebook.com/arunkumarmg8",
       linkedin:
