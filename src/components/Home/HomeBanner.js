@@ -48,7 +48,7 @@ const HomeBanner = () => {
                 >
                   The Future is Here. <br />
                   <span className="gradient-banner-heading">
-                    Build with AI.
+                    AI / Digital / Business Growth
                   </span>
                 </motion.h1>
                 <motion.p
