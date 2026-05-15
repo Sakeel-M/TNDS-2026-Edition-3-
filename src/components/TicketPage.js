@@ -14,6 +14,8 @@ import {
   hoverLift,
 } from "../common/motionVariants";
 
+const DIAMOND_SOLD_OUT = false;
+
 const TicketPage = () => {
   return (
     <div className="bg-dark">
@@ -269,13 +271,17 @@ const TicketPage = () => {
                 <img className="crown-width" src={Img3} alt="" />
               </div>
               <div className="diamond-sold-wrap">
-                <span className="ticket-sold-out-stamp" aria-label="Sold out">
-                  SOLD<br/>OUT
-                </span>
+                {DIAMOND_SOLD_OUT && (
+                  <span className="ticket-sold-out-stamp" aria-label="Sold out">
+                    SOLD<br/>OUT
+                  </span>
+                )}
                 <div className="position-soldout">
                   <div className="opacity-sold-ticket">
                     <div className="diamond-section">
-                    <span className="diamond-sold-watermark" aria-hidden="true">SOLD OUT</span>
+                    {DIAMOND_SOLD_OUT && (
+                      <span className="diamond-sold-watermark" aria-hidden="true">SOLD OUT</span>
+                    )}
                     <div className="text-center  pb-2">
                       <h2 className="ticket-heading text-white pt-2 mb-1">
                         DIAMOND
@@ -372,9 +378,17 @@ const TicketPage = () => {
                         </div>
                       </div>
                       <div className="btn-container">
-                        <button className="btn btn-sold-out" disabled aria-disabled="true">
-                          SOLD OUT
-                        </button>
+                        {DIAMOND_SOLD_OUT ? (
+                          <button className="btn btn-sold-out" disabled aria-disabled="true">
+                            SOLD OUT
+                          </button>
+                        ) : (
+                          <Link to="https://rzp.io/rzp/revised-earlybirdtnds-diamond" target="_blank" rel="noreferrer">
+                            <button className="btn btn-buy-ticket">
+                              BUY TICKETS
+                            </button>
+                          </Link>
+                        )}
                       </div>
                     </div>
                   </div>
