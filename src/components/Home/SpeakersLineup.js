@@ -296,9 +296,9 @@ const SpeakersLineup = () => {
                     }}
                   >
                     <div className="core-com-card">
-                      <div>
+                      <div className="speaker-photo-frame">
                         <img
-                          className="w-100 h-auto px-2 img-top-team"
+                          className="img-top-team"
                           src={item?.img}
                           alt=""
                         />
