@@ -275,6 +275,7 @@ const TicketPage = () => {
                 <div className="position-soldout">
                   <div className="opacity-sold-ticket">
                     <div className="diamond-section">
+                    <span className="diamond-sold-watermark" aria-hidden="true">SOLD OUT</span>
                     <div className="text-center  pb-2">
                       <h2 className="ticket-heading text-white pt-2 mb-1">
                         DIAMOND

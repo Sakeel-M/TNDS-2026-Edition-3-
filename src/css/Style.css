@@ -2181,6 +2181,44 @@
 /* --- Ticket: Sold Out (Diamond) -------------------------------------- */
 .diamond-sold-wrap {
   position: relative;
+  height: 100%;
+}
+.diamond-sold-wrap .position-soldout,
+.diamond-sold-wrap .opacity-sold-ticket {
+  height: 100%;
+}
+.diamond-section {
+  position: relative;
+}
+.diamond-sold-watermark {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-22deg);
+  font-family: "Inter-ExtraBold", "Manrope-SemiBold", sans-serif;
+  font-size: 96px;
+  font-weight: 900;
+  color: rgba(200, 16, 46, 0.18);
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+  z-index: 1;
+  text-shadow:
+    0 0 2px rgba(255, 255, 255, 0.25),
+    0 0 24px rgba(200, 16, 46, 0.15);
+}
+@media (max-width: 767px) {
+  .diamond-sold-watermark {
+    font-size: 64px;
+    letter-spacing: 6px;
+  }
+}
+.diamond-section .silver-ticket-padding,
+.diamond-section .text-center {
+  position: relative;
+  z-index: 2;
 }
 .ticket-sold-out-stamp {
   position: absolute;
