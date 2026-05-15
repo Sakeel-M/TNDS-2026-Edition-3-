@@ -542,6 +542,36 @@
   height: 100%;
   z-index: 1;
 }
+.hero-logos-marquee {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.92);
+  padding: 10px 0;
+  pointer-events: none;
+}
+.hero-logos-track {
+  display: flex;
+  width: max-content;
+  animation: hero-logos-scroll 40s linear infinite;
+}
+.hero-logos-track img {
+  display: block;
+  height: 48px;
+  width: auto;
+  flex: 0 0 auto;
+}
+@keyframes hero-logos-scroll {
+  from { transform: translateX(-50%); }
+  to   { transform: translateX(0); }
+}
+@media (max-width: 900px) {
+  .hero-logos-marquee { padding: 6px 0; }
+  .hero-logos-track img { height: 32px; }
+}
 .navbar {
   position: fixed;
   top: 0;

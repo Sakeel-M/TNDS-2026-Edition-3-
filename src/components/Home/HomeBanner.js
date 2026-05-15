@@ -114,6 +114,12 @@ const HomeBanner = () => {
             </div>
           </div>
         </div>
+        <div className="hero-logos-marquee" aria-hidden="true">
+          <div className="hero-logos-track">
+            <img src={`${process.env.PUBLIC_URL}/${encodeURIComponent("All logos.png")}`} alt="" />
+            <img src={`${process.env.PUBLIC_URL}/${encodeURIComponent("All logos.png")}`} alt="" />
+          </div>
+        </div>
       </div>
       <TimerSection />
     </>
