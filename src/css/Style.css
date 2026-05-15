@@ -2172,3 +2172,35 @@
 .agenda-speaker:last-child {
   margin-bottom: 0;
 }
+
+/* --- Ticket: Sold Out (Diamond) -------------------------------------- */
+.ticket-sold-out-badge {
+  display: inline-block;
+  margin: 0 auto 12px;
+  padding: 8px 28px;
+  background: linear-gradient(90deg, #d00 0%, #a30000 100%);
+  color: #fff;
+  font-family: "Inter-ExtraBold", "Manrope-SemiBold", sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 999px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(208, 0, 0, 0.4);
+}
+.btn-sold-out {
+  font-family: "Inter-ExtraBold";
+  font-size: 14px;
+  color: #ffffff;
+  background: #6c6c6c;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 25px;
+  cursor: not-allowed;
+  opacity: 0.85;
+}
+.btn-sold-out:hover,
+.btn-sold-out:focus {
+  background: #6c6c6c;
+  color: #ffffff;
+}

@@ -268,6 +268,9 @@ const TicketPage = () => {
               <div className="text-center mx-auto mb-2">
                 <img className="crown-width" src={Img3} alt="" />
               </div>
+              <div className="text-center">
+                <span className="ticket-sold-out-badge">SOLD OUT</span>
+              </div>
               <div className="position-soldout">
                 <div className="opacity-sold-ticket">
                   <div className="diamond-section">
@@ -367,11 +370,9 @@ const TicketPage = () => {
                         </div>
                       </div>
                       <div className="btn-container">
-                        <Link to="https://rzp.io/rzp/revised-earlybirdtnds-diamond" target="_blank" rel="noreferrer">
-                          <button className="btn btn-buy-ticket">
-                            BUY TICKETS
-                          </button>
-                        </Link>
+                        <button className="btn btn-sold-out" disabled aria-disabled="true">
+                          SOLD OUT
+                        </button>
                       </div>
                     </div>
                   </div>
