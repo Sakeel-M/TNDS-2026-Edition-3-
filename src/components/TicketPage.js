@@ -268,12 +268,13 @@ const TicketPage = () => {
               <div className="text-center mx-auto mb-2">
                 <img className="crown-width" src={Img3} alt="" />
               </div>
-              <div className="text-center">
-                <span className="ticket-sold-out-badge">SOLD OUT</span>
-              </div>
-              <div className="position-soldout">
-                <div className="opacity-sold-ticket">
-                  <div className="diamond-section">
+              <div className="diamond-sold-wrap">
+                <span className="ticket-sold-out-stamp" aria-label="Sold out">
+                  SOLD<br/>OUT
+                </span>
+                <div className="position-soldout">
+                  <div className="opacity-sold-ticket">
+                    <div className="diamond-section">
                     <div className="text-center  pb-2">
                       <h2 className="ticket-heading text-white pt-2 mb-1">
                         DIAMOND
@@ -377,6 +378,7 @@ const TicketPage = () => {
                     </div>
                   </div>
                 </div>
+              </div>
               </div>
             </motion.div>
           </motion.div>

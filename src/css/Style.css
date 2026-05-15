@@ -2174,19 +2174,51 @@
 }
 
 /* --- Ticket: Sold Out (Diamond) -------------------------------------- */
-.ticket-sold-out-badge {
-  display: inline-block;
-  margin: 0 auto 12px;
-  padding: 8px 28px;
-  background: linear-gradient(90deg, #d00 0%, #a30000 100%);
-  color: #fff;
+.diamond-sold-wrap {
+  position: relative;
+}
+.ticket-sold-out-stamp {
+  position: absolute;
+  top: -22px;
+  right: 12px;
+  z-index: 5;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+  border: 4px solid #c8102e;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.92);
+  color: #c8102e;
   font-family: "Inter-ExtraBold", "Manrope-SemiBold", sans-serif;
   font-size: 18px;
+  line-height: 1;
   letter-spacing: 2px;
-  text-transform: uppercase;
-  border-radius: 999px;
   text-align: center;
-  box-shadow: 0 6px 20px rgba(208, 0, 0, 0.4);
+  text-transform: uppercase;
+  transform: rotate(-12deg);
+  box-shadow:
+    0 0 0 4px #fff,
+    0 12px 28px rgba(200, 16, 46, 0.35);
+  pointer-events: none;
+  user-select: none;
+}
+.ticket-sold-out-stamp::before {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border: 2px dashed rgba(200, 16, 46, 0.45);
+  border-radius: 50%;
+}
+@media (max-width: 767px) {
+  .ticket-sold-out-stamp {
+    width: 80px;
+    height: 80px;
+    font-size: 15px;
+    top: -16px;
+    right: 8px;
+  }
 }
 .btn-sold-out {
   font-family: "Inter-ExtraBold";
