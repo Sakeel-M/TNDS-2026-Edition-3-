@@ -1050,7 +1050,7 @@
   flex-direction: column;
 }
 .core-com-card .core-com-inner-card {
-  margin-top: auto;
+  margin-top: 16px;
 }
 .img-top-team {
   margin-top: -70px;
