@@ -8,19 +8,15 @@ const day1 = {
   venue: "Hilton, Chennai",
   sessions: [
     {
-      time: "09:00 AM - 09:05 AM",
-      title: "Inauguration",
-      speakers: [{ name: "Hema Rakesh", role: "Master of Ceremony" }],
-    },
-    {
       time: "09:05 AM - 09:30 AM",
       title: "Welcome Note",
       speakers: [{ name: "Dharaneetharan G D", role: "Founder & CEO, Social Eagle" }],
     },
     {
       time: "09:30 AM - 10:15 AM",
-      title: "Fireside Chat with Dr. AVM",
-      speakers: [{ name: "Dr. A. Velumani, PhD.", role: "Creator, Thyrocare" }],
+      title: "Fireside Chat with Dr. A. Velumani, PhD.",
+      moderator: "Dharaneetharan G D",
+      speakers: [],
     },
     {
       time: "10:15 AM - 10:40 AM",
