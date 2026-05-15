@@ -156,7 +156,7 @@ const HomeContent = () => {
       img: require("../../assets/images/organisers/Organisers_Vishnu Hari.png"),
       img2: require("../../assets/images/organisers/Organisers_Vishnu Hari2.png"),
       name: "Vishnuhari H",
-      pos: "Co-Founder - Social Eagle, EX AIRBNB",
+      pos: "Co-Founder - Social Eagle, Ex-Airbnb",
       insta: "https://www.instagram.com/imvishnuhari/",
       facebook: "https://www.facebook.com/imvishnuhari?mibextid=ZbWKwL",
       linkedin: "https://www.linkedin.com/in/vishnuhari-harikumar/",
