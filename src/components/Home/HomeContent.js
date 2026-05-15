@@ -144,7 +144,7 @@ const HomeContent = () => {
     {
       img: require("../../assets/images/organisers/Organisers_Dharaneetharan.png"),
       img2: require("../../assets/images/organisers/Organisers_Dharaneetharan2.png"),
-      name: "G D Dharaneetharan",
+      name: "Dharaneetharan G D",
       pos: "Founder - Social Eagle & 21DC Community",
       insta: "https://www.instagram.com/dharaneetharan/?hl=en",
       youtube: "https://www.youtube.com/@dharaneetharan",
@@ -165,7 +165,7 @@ const HomeContent = () => {
       img: require("../../assets/images/organisers/Organisers_Shatheeshram.png"),
       img2: require("../../assets/images/organisers/Organisers_Shatheeshram2.png"),
       name: "Shatheeshram Ganapathy",
-      pos: "Director of Sales, SocialEagle.AI",
+      pos: "Director of Sales, Social Eagle",
       insta:
         "https://www.instagram.com/shatheeshramganapathy/?igsh=MW5nYzc4Nmh3OXJvdQ%3D%3D#",
       facebook: "https://www.facebook.com/shatheeshram?mibextid=ZbWKwL",
@@ -307,7 +307,7 @@ const HomeContent = () => {
                       Now in its third edition, TNDS 2026 is about visionary
                       thinking and building AI native businesses. Founders who
                       have built and scaled their business with AI, The Eagle
-                      Awards and a community that’s been building together since
+                      Awards and a Community that’s been building together since
                       2020.
                     </p>
                     <p>

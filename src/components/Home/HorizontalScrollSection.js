@@ -14,7 +14,7 @@ export default function HorizontalScrollSection() {
   const scrollOrganizer = [
     {
       img: require("../../assets/images/o1.webp"),
-      name: "G D Dharaneetharan",
+      name: "Dharaneetharan G D",
       pos: "Founder - Social Eagle & 21DC Community",
       insta: "...",
       facebook: "...",
@@ -22,7 +22,7 @@ export default function HorizontalScrollSection() {
     },
     {
       img: require("../../assets/images/o1.webp"),
-      name: "G D Dharaneetharan",
+      name: "Dharaneetharan G D",
       pos: "Founder - Social Eagle & 21DC Community",
       insta: "...",
       facebook: "...",
@@ -30,7 +30,7 @@ export default function HorizontalScrollSection() {
     },
     {
       img: require("../../assets/images/o1.webp"),
-      name: "G D Dharaneetharan",
+      name: "Dharaneetharan G D",
       pos: "Founder - Social Eagle & 21DC Community",
       insta: "...",
       facebook: "...",
@@ -38,7 +38,7 @@ export default function HorizontalScrollSection() {
     },
     {
       img: require("../../assets/images/o1.webp"),
-      name: "G D Dharaneetharan",
+      name: "Dharaneetharan G D",
       pos: "Founder - Social Eagle & 21DC Community",
       insta: "...",
       facebook: "...",
@@ -46,7 +46,7 @@ export default function HorizontalScrollSection() {
     },
     {
       img: require("../../assets/images/o1.webp"),
-      name: "G D Dharaneetharan",
+      name: "Dharaneetharan G D",
       pos: "Founder - Social Eagle & 21DC Community",
       insta: "...",
       facebook: "...",
