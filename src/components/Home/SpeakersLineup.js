@@ -33,7 +33,7 @@ const SpeakersLineup = () => {
       para: "Architect of India’s salon revolution with 700+ outlets and a mission to create 1,000+ women entrepreneurs.<br/><br/>His vision? A “housewife-free” India powered by empowered women.",
       insta: "https://www.instagram.com/ckkumaravel/?hl=en",
       facebook: "https://www.facebook.com/kumaravel.ck",
-      linkedin: "https://www.linkedin.com/in/ckknaturals/",
+      linkedin: "https://www.linkedin.com/in/ckknaturals",
     },
     {
       id: 3,

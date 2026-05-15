@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import ComingSoon from "../components/ComingSoon";
+import AgendaContent from "../components/AgendaContent";
 import TimerSection from "../common/TimerSection";
 
 const Agenda = () => {
@@ -16,7 +16,7 @@ const Agenda = () => {
   return (
     <div className=''>
       <Navbar />
-      <ComingSoon title="Agenda" />
+      <AgendaContent />
       <Footer />
       <TimerSection/>
     </div>
