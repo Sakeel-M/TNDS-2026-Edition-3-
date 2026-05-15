@@ -284,7 +284,7 @@ const SpeakersLineup = () => {
               {coreCommittee.map((item, index) => {
                 return (
                   <motion.div
-                    className="col-lg-2 col-md-4 col-6"
+                    className="col-lg-3 col-md-6"
                     style={{ cursor: "pointer" }}
                     key={index + 1}
                     variants={fadeUp}
