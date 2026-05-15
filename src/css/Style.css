@@ -198,15 +198,20 @@
   box-shadow: 0px 16px 80px 0px #3333331f;
 }
 .diamond-section {
-  background: linear-gradient(160deg, #2a2a2a 0%, #0c0c0c 50%, #1a1a1a 100%);
+  background: linear-gradient(160deg, rgba(20, 20, 24, 0.55) 0%, rgba(8, 8, 12, 0.65) 50%, rgba(20, 20, 28, 0.55) 100%);
+  -webkit-backdrop-filter: blur(18px) saturate(160%);
+  backdrop-filter: blur(18px) saturate(160%);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 40px;
   padding: 20px 0px;
-  box-shadow: 0px 16px 80px 0px #3333331f;
-  border-top: 1px solid #aeaeae;
-  border-bottom: 1px solid #aeaeae;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.08) inset,
+    0 -1px 0 rgba(255, 255, 255, 0.04) inset,
+    0 24px 60px rgba(0, 0, 0, 0.55),
+    0 0 0 1px rgba(0, 0, 0, 0.4);
 }
 .crown-width {
   width: 110px;
@@ -2179,45 +2184,50 @@
 }
 .ticket-sold-out-stamp {
   position: absolute;
-  top: -22px;
-  right: 12px;
+  top: -56px;
+  right: 18px;
   z-index: 5;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 96px;
-  height: 96px;
-  border: 4px solid #c8102e;
+  width: 140px;
+  height: 140px;
+  border: 6px solid #c8102e;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(255, 255, 255, 0.95);
   color: #c8102e;
   font-family: "Inter-ExtraBold", "Manrope-SemiBold", sans-serif;
-  font-size: 18px;
+  font-size: 28px;
+  font-weight: 900;
   line-height: 1;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   text-align: center;
   text-transform: uppercase;
   transform: rotate(-12deg);
   box-shadow:
-    0 0 0 4px #fff,
-    0 12px 28px rgba(200, 16, 46, 0.35);
+    0 0 0 6px #fff,
+    0 18px 40px rgba(200, 16, 46, 0.45);
   pointer-events: none;
   user-select: none;
 }
 .ticket-sold-out-stamp::before {
   content: "";
   position: absolute;
-  inset: 4px;
-  border: 2px dashed rgba(200, 16, 46, 0.45);
+  inset: 6px;
+  border: 3px dashed rgba(200, 16, 46, 0.5);
   border-radius: 50%;
 }
 @media (max-width: 767px) {
   .ticket-sold-out-stamp {
-    width: 80px;
-    height: 80px;
-    font-size: 15px;
-    top: -16px;
-    right: 8px;
+    width: 110px;
+    height: 110px;
+    font-size: 22px;
+    top: -40px;
+    right: 12px;
+    border-width: 5px;
+  }
+  .ticket-sold-out-stamp::before {
+    inset: 5px;
   }
 }
 .btn-sold-out {
