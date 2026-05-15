@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import Location from "../../assets/images/location.webp";
+import AllLogos from "../../assets/images/all-logos.png";
 import TicketWhite from "../../assets/images/ticket-white.webp";
 import TicketBlack from "../../assets/images/ticket-black.webp";
 import { useLocation, useNavigate } from "react-router-dom";
@@ -116,8 +117,8 @@ const HomeBanner = () => {
         </div>
         <div className="hero-logos-marquee" aria-hidden="true">
           <div className="hero-logos-track">
-            <img src={`${process.env.PUBLIC_URL}/${encodeURIComponent("All logos.png")}`} alt="" />
-            <img src={`${process.env.PUBLIC_URL}/${encodeURIComponent("All logos.png")}`} alt="" />
+            <img src={AllLogos} alt="" />
+            <img src={AllLogos} alt="" />
           </div>
         </div>
       </div>
