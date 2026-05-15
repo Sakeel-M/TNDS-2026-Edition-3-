@@ -39,7 +39,7 @@ const SpeakersLineup = () => {
     },
     {
       id: 2,
-      img: `${process.env.PUBLIC_URL}/Speakers/${encodeURIComponent("C K Ranganathan.png")}`,
+      img: `${process.env.PUBLIC_URL}/Speakers/16.CKR.png`,
       name: "C K Ranganathan",
       pos: "Managing Director, CavinKare",
       para: "",
@@ -49,7 +49,7 @@ const SpeakersLineup = () => {
     },
     {
       id: 3,
-      img: `${process.env.PUBLIC_URL}/Speakers/${encodeURIComponent("K T Srinivasa Raja.png")}`,
+      img: `${process.env.PUBLIC_URL}/Speakers/17.AtoB.png`,
       name: "K T Srinivasa Raja",
       pos: "Managing Director,<br/> Adyar Ananda Bhavan (A2B)",
       para: "",
@@ -129,7 +129,7 @@ const SpeakersLineup = () => {
     },
     {
       id: 11,
-      img: `${process.env.PUBLIC_URL}/Speakers/${encodeURIComponent("Nivetha Muralidharan.png")}`,
+      img: `${process.env.PUBLIC_URL}/Speakers/14.Nivedha.png`,
       name: "Nivetha Muralidharan",
       pos: "Founder, Newgenmax",
       para: "",
@@ -159,7 +159,7 @@ const SpeakersLineup = () => {
     },
     {
       id: 14,
-      img: `${process.env.PUBLIC_URL}/Speakers/${encodeURIComponent("S. Selvakumar.png")}`,
+      img: `${process.env.PUBLIC_URL}/Speakers/15.Selvakumar.png`,
       name: "S. Selvakumar",
       pos: "Founder, Anandham Youth Foundation",
       para: "",
@@ -249,7 +249,7 @@ const SpeakersLineup = () => {
     },
     {
       id: 23,
-      img: `${process.env.PUBLIC_URL}/Speakers/Archana.jpeg`,
+      img: `${process.env.PUBLIC_URL}/Speakers/Archana_Image.jpeg`,
       name: "Archana",
       pos: "Head of New Initiatives, Social Eagle",
       para: "",
@@ -259,7 +259,7 @@ const SpeakersLineup = () => {
     },
     {
       id: 24,
-      img: `${process.env.PUBLIC_URL}/Speakers/${encodeURIComponent("Antony Wilbert.png")}`,
+      img: PLACEHOLDER_AVATAR,
       name: "Antony Willbert",
       pos: "Chief Conversion Strategist, Social Eagle",
       para: "",
@@ -296,9 +296,9 @@ const SpeakersLineup = () => {
                     }}
                   >
                     <div className="core-com-card">
-                      <div className="speaker-photo-frame">
+                      <div>
                         <img
-                          className="img-top-team"
+                          className="w-100 h-auto px-2 img-top-team"
                           src={item?.img}
                           alt=""
                         />
