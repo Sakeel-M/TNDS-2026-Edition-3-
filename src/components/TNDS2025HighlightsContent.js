@@ -78,6 +78,7 @@ const TNDS2025HighlightsContent = () => {
                     src={`${process.env.PUBLIC_URL}/tnds-2025-highlights/${encode(file)}`}
                     alt={`TNDS 2025 highlight ${idx + 1}`}
                     loading="lazy"
+                    decoding="async"
                   />
                 </motion.div>
               );
