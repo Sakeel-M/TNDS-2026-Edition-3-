@@ -550,7 +550,7 @@
   z-index: 3;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.92);
-  padding: 10px 0;
+  padding: 2px 0;
   pointer-events: none;
 }
 .hero-logos-track {
@@ -569,7 +569,7 @@
   100% { transform: translateX(0); }
 }
 @media (max-width: 900px) {
-  .hero-logos-marquee { padding: 6px 0; }
+  .hero-logos-marquee { padding: 2px 0; }
   .hero-logos-track img { height: 56px; }
 }
 .navbar {
