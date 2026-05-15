@@ -39,7 +39,7 @@ const SpeakersLineup = () => {
     },
     {
       id: 2,
-      img: `${process.env.PUBLIC_URL}/Speakers/16.CKR.png`,
+      img: `${process.env.PUBLIC_URL}/Speakers/${encodeURIComponent("C K Ranganathan.png")}`,
       name: "C K Ranganathan",
       pos: "Managing Director, CavinKare",
       para: "",
@@ -49,7 +49,7 @@ const SpeakersLineup = () => {
     },
     {
       id: 3,
-      img: `${process.env.PUBLIC_URL}/Speakers/17.AtoB.png`,
+      img: `${process.env.PUBLIC_URL}/Speakers/${encodeURIComponent("K T Srinivasa Raja.png")}`,
       name: "K T Srinivasa Raja",
       pos: "Managing Director,<br/> Adyar Ananda Bhavan (A2B)",
       para: "",
@@ -89,7 +89,7 @@ const SpeakersLineup = () => {
     },
     {
       id: 7,
-      img: PLACEHOLDER_AVATAR,
+      img: `${process.env.PUBLIC_URL}/Speakers/Devanand.png`,
       name: "Devanand Balasubramanian",
       pos: "Business Strategist,<br/> Navyug Global Ventures",
       para: "",
@@ -129,7 +129,7 @@ const SpeakersLineup = () => {
     },
     {
       id: 11,
-      img: `${process.env.PUBLIC_URL}/Speakers/14.Nivedha.png`,
+      img: `${process.env.PUBLIC_URL}/Speakers/${encodeURIComponent("Nivetha Muralidharan.png")}`,
       name: "Nivetha Muralidharan",
       pos: "Founder, Newgenmax",
       para: "",
@@ -159,7 +159,7 @@ const SpeakersLineup = () => {
     },
     {
       id: 14,
-      img: `${process.env.PUBLIC_URL}/Speakers/15.Selvakumar.png`,
+      img: `${process.env.PUBLIC_URL}/Speakers/${encodeURIComponent("S. Selvakumar.png")}`,
       name: "S. Selvakumar",
       pos: "Founder, Anandham Youth Foundation",
       para: "",
@@ -199,7 +199,7 @@ const SpeakersLineup = () => {
     },
     {
       id: 18,
-      img: PLACEHOLDER_AVATAR,
+      img: `${process.env.PUBLIC_URL}/Speakers/Karthikramani.png`,
       name: "Karthik Ramani",
       pos: "Co-founder, Flexifunnels",
       para: "",
@@ -249,7 +249,7 @@ const SpeakersLineup = () => {
     },
     {
       id: 23,
-      img: `${process.env.PUBLIC_URL}/Speakers/Archana_Image.jpeg`,
+      img: `${process.env.PUBLIC_URL}/Speakers/Archana.png`,
       name: "Archana",
       pos: "Head of New Initiatives, Social Eagle",
       para: "",
@@ -259,7 +259,7 @@ const SpeakersLineup = () => {
     },
     {
       id: 24,
-      img: PLACEHOLDER_AVATAR,
+      img: `${process.env.PUBLIC_URL}/Speakers/${encodeURIComponent("Antony Wilbert.png")}`,
       name: "Antony Willbert",
       pos: "Chief Conversion Strategist, Social Eagle",
       para: "",
