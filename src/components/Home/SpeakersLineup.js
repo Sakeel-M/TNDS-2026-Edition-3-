@@ -18,7 +18,7 @@ const SpeakersLineup = () => {
     {
       id: 1,
       img: require("../../assets/images/speakers/s2.webp"),
-      name: "Dr. A. Velumani, PhD",
+      name: "Dr. A. Velumani, PhD.",
       pos: "Creator, Thyrocare",
       para: "From ₹500 to a billion-dollar brand - he transformed India's diagnostics landscape.<br/><br/>His bold bet on low-cost, high-quality testing made preventive healthcare accessible for all.",
       insta: "https://www.instagram.com/drvelumani/?hl=en",

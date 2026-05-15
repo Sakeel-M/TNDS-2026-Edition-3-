@@ -20,7 +20,7 @@ const day1 = {
     {
       time: "09:30 AM – 10:15 AM",
       title: "Fireside Chat with Dr. AVM",
-      speakers: [{ name: "Dr. A. Velumani, PhD", role: "Creator, Thyrocare" }],
+      speakers: [{ name: "Dr. A. Velumani, PhD.", role: "Creator, Thyrocare" }],
     },
     {
       time: "10:15 AM – 10:40 AM",
