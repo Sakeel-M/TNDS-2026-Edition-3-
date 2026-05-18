@@ -8,15 +8,20 @@ const day1 = {
   venue: "Hilton, Chennai",
   sessions: [
     {
+      time: "09:00 AM - 09:05 AM",
+      title: "Inauguration",
+      speakers: [{ name: "Hema Rakesh", role: "Master of Ceremony" }],
+    },
+    {
       time: "09:05 AM - 09:30 AM",
       title: "Welcome Note",
       speakers: [{ name: "Dharaneetharan G D", role: "Founder & CEO, Social Eagle" }],
     },
     {
       time: "09:30 AM - 10:15 AM",
-      title: "Fireside Chat with Dr. A. Velumani, PhD.",
+      title: "Fireside Chat with Dr. AVM",
       moderator: "Dharaneetharan G D",
-      speakers: [],
+      speakers: [{ name: "Dr. A. Velumani, PhD", role: "Creator, Thyrocare" }],
     },
     {
       time: "10:15 AM - 10:40 AM",
@@ -69,12 +74,17 @@ const day1 = {
       speakers: [{ name: "Karthik Ramani", role: "Co-Founder & CTO, FlexiFunnels" }],
     },
     {
-      time: "04:25 PM - 05:10 PM",
+      time: "04:25 PM - 04:50 PM",
+      title: "Creating 'The Sales System' for the AI Era",
+      speakers: [{ name: "Antony Willbert", role: "Chief Conversion Strategist, Social Eagle" }],
+    },
+    {
+      time: "04:50 PM - 05:30 PM",
       title: "Creating an AI Employee",
       speakers: [{ name: "Manojkumar Vasudevan", role: "Director, Social Eagle" }],
     },
     {
-      time: "06:00 PM Onwards",
+      time: "06:15 PM Onwards",
       title: "Awards & Recognition",
       speakers: [],
     },
@@ -108,8 +118,9 @@ const day2 = {
     },
     {
       time: "11:20 AM - 11:45 AM",
-      title: "Creating 'The Sales System' for the AI Era",
-      speakers: [{ name: "Antony Willbert", role: "Chief Conversion Strategist, Social Eagle" }],
+      title: "Fireside Chat with Anand Srinivasan",
+      moderator: "Priya Dharaneetharan",
+      speakers: [{ name: "Anand Srinivasan", role: "Investor & Author" }],
     },
     {
       time: "11:45 AM - 12:15 PM",
@@ -142,16 +153,21 @@ const day2 = {
     },
     {
       time: "04:35 PM - 05:05 PM",
-      title: "A2B Wins and Challenges",
+      title: "A2Bயின் சவால்களும் சாதனைகளும்",
       speakers: [{ name: "KT Srinivasa Raja", role: "Managing Director, Adyar Ananda Bhavan" }],
     },
     {
-      time: "05:05 PM - 05:35 PM",
+      time: "05:05 PM - 05:15 PM",
+      title: "What 30 days can do?",
+      speakers: [{ name: "Pranav S", role: "Founder, Schlora" }],
+    },
+    {
+      time: "05:15 PM - 05:45 PM",
       title: "Your Next One Year",
       speakers: [{ name: "Dharaneetharan G D", role: "Founder & CEO, Social Eagle" }],
     },
     {
-      time: "05:35 PM - 06:00 PM",
+      time: "05:45 PM - 06:00 PM",
       title: "Closing Note",
       speakers: [{ name: "Dharaneetharan G D", role: "Founder & CEO, Social Eagle" }],
     },
