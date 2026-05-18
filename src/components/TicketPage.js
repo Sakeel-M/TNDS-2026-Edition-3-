@@ -14,7 +14,9 @@ import {
   hoverLift,
 } from "../common/motionVariants";
 
-const DIAMOND_SOLD_OUT = false;
+const SILVER_SOLD_OUT = true;
+const GOLD_SOLD_OUT = true;
+const DIAMOND_SOLD_OUT = true;
 
 const TicketPage = () => {
   return (
@@ -48,9 +50,18 @@ const TicketPage = () => {
               <div className="text-center mx-auto mb-2">
                 <img className="crown-width" src={Img1} alt="" />
               </div>
-              <div className="position-soldout">
-                <div className="opacity-sold-ticket">
-                  <div className="silver-section">
+              <div className="diamond-sold-wrap">
+                {SILVER_SOLD_OUT && (
+                  <span className="ticket-sold-out-stamp" aria-label="Sold out">
+                    SOLD<br/>OUT
+                  </span>
+                )}
+                <div className="position-soldout">
+                  <div className="opacity-sold-ticket">
+                    <div className="silver-section">
+                    {SILVER_SOLD_OUT && (
+                      <span className="diamond-sold-watermark" aria-hidden="true">SOLD OUT</span>
+                    )}
                     <div className="text-center  pb-2">
                       <h2 className="ticket-heading pt-2 mb-1">SILVER</h2>
                       <p className="text-light small-text mb-3">Starter</p>
@@ -145,24 +156,40 @@ const TicketPage = () => {
                         </div>
                       </div>
                       <div className="btn-container">
-                        <Link to="https://rzp.io/rzp/revised-earlybirdtnds-silver" target="_blank" rel="noreferrer">
-                          <button className="btn btn-buy-ticket">
-                            BUY TICKETS
+                        {SILVER_SOLD_OUT ? (
+                          <button className="btn btn-sold-out" disabled aria-disabled="true">
+                            SOLD OUT
                           </button>
-                        </Link>
+                        ) : (
+                          <Link to="https://rzp.io/rzp/revised-earlybirdtnds-silver" target="_blank" rel="noreferrer">
+                            <button className="btn btn-buy-ticket">
+                              BUY TICKETS
+                            </button>
+                          </Link>
+                        )}
                       </div>
                     </div>
                   </div>
                 </div>
+              </div>
               </div>
             </motion.div>
             <motion.div className="col-lg-4 col-md-6 mb-lg-0 mb-md-5 mb-5" variants={scaleIn} whileHover={hoverLift}>
               <div className="text-center mx-auto mb-2">
                 <img className="crown-width" src={Img2} alt="" />
               </div>
-              <div className="position-soldout">
-              <div className="opacity-sold-ticket">
-              <div className="gold-section">
+              <div className="diamond-sold-wrap">
+                {GOLD_SOLD_OUT && (
+                  <span className="ticket-sold-out-stamp" aria-label="Sold out">
+                    SOLD<br/>OUT
+                  </span>
+                )}
+                <div className="position-soldout">
+                <div className="opacity-sold-ticket">
+                <div className="gold-section">
+                {GOLD_SOLD_OUT && (
+                  <span className="diamond-sold-watermark" aria-hidden="true">SOLD OUT</span>
+                )}
                 <div className="text-center pb-2">
                   <h2 className="ticket-heading pt-2 mb-1">GOLD</h2>
                   <p className="text-light small-text mb-3">Most Popular</p>
@@ -255,13 +282,20 @@ const TicketPage = () => {
                     </div>
                   </div>
                   <div className="btn-container">
-                    <Link to="https://rzp.io/rzp/revised-earlybirdtnds-gold" target="_blank" rel="noreferrer">
-                      <button className="btn btn-buy-ticket">
-                        BUY TICKETS
+                    {GOLD_SOLD_OUT ? (
+                      <button className="btn btn-sold-out" disabled aria-disabled="true">
+                        SOLD OUT
                       </button>
-                    </Link>
+                    ) : (
+                      <Link to="https://rzp.io/rzp/revised-earlybirdtnds-gold" target="_blank" rel="noreferrer">
+                        <button className="btn btn-buy-ticket">
+                          BUY TICKETS
+                        </button>
+                      </Link>
+                    )}
                   </div>
                 </div>
+              </div>
               </div>
               </div>
               </div>

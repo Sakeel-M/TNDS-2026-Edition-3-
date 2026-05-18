@@ -2217,9 +2217,17 @@
   }
 }
 .diamond-section .silver-ticket-padding,
-.diamond-section .text-center {
+.diamond-section .text-center,
+.silver-section .silver-ticket-padding,
+.silver-section .text-center,
+.gold-section .silver-ticket-padding,
+.gold-section .text-center {
   position: relative;
   z-index: 2;
+}
+.silver-section,
+.gold-section {
+  position: relative;
 }
 .diamond-section .bg-ticket-amount {
   background: linear-gradient(180deg, rgba(9, 13, 63, 0.85) 0%, rgba(19, 30, 141, 0.75) 55%, rgba(10, 10, 18, 0.85) 100%);
