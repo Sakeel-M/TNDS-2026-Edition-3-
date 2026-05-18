@@ -11,6 +11,9 @@ const Navbar = () => {
 
     const [navColor, setnavColor] = useState("transparent");
     const [navBorder, setnavBorder] = useState("transparent");
+    const [menuOpen, setMenuOpen] = useState(false);
+    const closeMenu = () => setMenuOpen(false);
+
     const listenScrollEvent = () => {
       window.scrollY > 10 ? setnavColor("rgb(7 29 167 / 44%)") : setnavColor("transparent");
       window.scrollY > 10 ? setnavBorder("#c7c7c7b8") : setnavColor("transparent");
@@ -30,29 +33,28 @@ const Navbar = () => {
           backdropFilter:navColor === "transparent" ? "blur(0px)" : "blur(5px)",
         }} className="navbar navbar-expand-lg navbar-dark">
         <div style={{borderBottom: navBorder === "transparent" ? `1px solid #c7c7c7b8` : " 1px solid transparent"}} className="container nav-container">
-          <NavLink className="navbar-brand" to="/">
+          <NavLink className="navbar-brand" to="/" onClick={closeMenu}>
             <img className="header-logo" src={Logo} alt="" />
           </NavLink>
           <button
-            className="navbar-toggler"
+            className={`navbar-toggler ${menuOpen ? "" : "collapsed"}`}
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
+            onClick={() => setMenuOpen((v) => !v)}
             aria-controls="navbarSupportedContent"
-            aria-expanded="false"
+            aria-expanded={menuOpen}
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className={`collapse navbar-collapse ${menuOpen ? "show" : ""}`} id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink className="nav-link "  to="/">
+                <NavLink className="nav-link "  to="/" onClick={closeMenu}>
                   Home
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link "  to="/Agenda">
+                <NavLink className="nav-link "  to="/Agenda" onClick={closeMenu}>
                   Agenda
                 </NavLink>
               </li>
@@ -62,6 +64,7 @@ const Navbar = () => {
                   href="#/#Speakers"
                   onClick={(e) => {
                     e.preventDefault();
+                    closeMenu();
                     navigate("/");
                     setTimeout(() => scrollToSection("Speakers"), 100);
                   }}
@@ -70,17 +73,17 @@ const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link "  to="/Awards">
+                <NavLink className="nav-link "  to="/Awards" onClick={closeMenu}>
                   Awards
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link "  to="/TNDS2025Highlights">
+                <NavLink className="nav-link "  to="/TNDS2025Highlights" onClick={closeMenu}>
                 TNDS 2025 Highlights
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link "  to="/TNDS2024Highlights">
+                <NavLink className="nav-link "  to="/TNDS2024Highlights" onClick={closeMenu}>
                 TNDS 2024 Highlights
                 </NavLink>
               </li>
@@ -91,7 +94,7 @@ const Navbar = () => {
               </li> */}
             </ul>
             <div className="nav-btn-container">
-              <button  onClick={()=>navigate('/Ticket')} className="btn nav-btn" >
+              <button  onClick={()=>{ closeMenu(); navigate('/Ticket'); }} className="btn nav-btn" >
                     <div className="figure">
                         <img className="ticket-black" src={TicketWhite} alt="" />
                         <img className="ticket-white" src={TicketBlack} alt="" />
