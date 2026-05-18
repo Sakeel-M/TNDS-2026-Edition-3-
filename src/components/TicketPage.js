@@ -62,6 +62,7 @@ const TicketPage = () => {
                     {SILVER_SOLD_OUT && (
                       <span className="diamond-sold-watermark" aria-hidden="true">SOLD OUT</span>
                     )}
+                    {SILVER_SOLD_OUT && <div className="ticket-sold-glass" aria-hidden="true" />}
                     <div className="text-center  pb-2">
                       <h2 className="ticket-heading pt-2 mb-1">SILVER</h2>
                       <p className="text-light small-text mb-3">Starter</p>
@@ -190,6 +191,7 @@ const TicketPage = () => {
                 {GOLD_SOLD_OUT && (
                   <span className="diamond-sold-watermark" aria-hidden="true">SOLD OUT</span>
                 )}
+                {GOLD_SOLD_OUT && <div className="ticket-sold-glass" aria-hidden="true" />}
                 <div className="text-center pb-2">
                   <h2 className="ticket-heading pt-2 mb-1">GOLD</h2>
                   <p className="text-light small-text mb-3">Most Popular</p>
@@ -316,6 +318,7 @@ const TicketPage = () => {
                     {DIAMOND_SOLD_OUT && (
                       <span className="diamond-sold-watermark" aria-hidden="true">SOLD OUT</span>
                     )}
+                    {DIAMOND_SOLD_OUT && <div className="ticket-sold-glass" aria-hidden="true" />}
                     <div className="text-center  pb-2">
                       <h2 className="ticket-heading text-white pt-2 mb-1">
                         DIAMOND
