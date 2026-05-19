@@ -568,6 +568,7 @@
   height: 50px;
   width: auto;
   flex: 0 0 auto;
+  margin-left: -60px;
 }
 @keyframes hero-logos-scroll {
   0%   { transform: translateX(-25%); }
