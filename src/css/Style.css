@@ -555,7 +555,7 @@
   z-index: 3;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.92);
-  padding: 12px 0;
+  padding: 2px 0;
   pointer-events: none;
 }
 .hero-logos-track {
@@ -565,18 +565,18 @@
 }
 .hero-logos-track img {
   display: block;
-  height: 60px;
+  height: 80px;
   width: auto;
   flex: 0 0 auto;
-  margin-left: -8px;
+  margin-left: -40px;
 }
 @keyframes hero-logos-scroll {
   0%   { transform: translateX(-25%); }
   100% { transform: translateX(0); }
 }
 @media (max-width: 900px) {
-  .hero-logos-marquee { padding: 8px 0; }
-  .hero-logos-track img { height: 42px; }
+  .hero-logos-marquee { padding: 2px 0; }
+  .hero-logos-track img { height: 56px; margin-left: -28px; }
 }
 .navbar {
   position: fixed;
