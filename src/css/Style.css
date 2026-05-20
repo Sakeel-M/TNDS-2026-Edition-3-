@@ -555,7 +555,7 @@
   z-index: 3;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.92);
-  padding: 2px 0;
+  padding: 12px 0;
   pointer-events: none;
 }
 .hero-logos-track {
@@ -565,7 +565,7 @@
 }
 .hero-logos-track img {
   display: block;
-  height: 50px;
+  height: 60px;
   width: auto;
   flex: 0 0 auto;
   margin-left: -8px;
@@ -575,8 +575,8 @@
   100% { transform: translateX(0); }
 }
 @media (max-width: 900px) {
-  .hero-logos-marquee { padding: 2px 0; }
-  .hero-logos-track img { height: 36px; }
+  .hero-logos-marquee { padding: 8px 0; }
+  .hero-logos-track img { height: 42px; }
 }
 .navbar {
   position: fixed;
