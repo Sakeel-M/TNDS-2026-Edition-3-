@@ -68,6 +68,16 @@ const SpeakersLineup = () => {
       linkedin: "https://www.linkedin.com/in/ckknaturals",
     },
     {
+      id: 25,
+      img: `${process.env.PUBLIC_URL}/${encodeURIComponent("Anandh Srinivas.png")}`,
+      name: "Anand Srinivasan",
+      pos: "Politician, Economist,<br/> Author & Value Investor",
+      para: "",
+      insta: "",
+      facebook: "",
+      linkedin: "",
+    },
+    {
       id: 5,
       img: `${process.env.PUBLIC_URL}/${encodeURIComponent("Derby Vijay Kapoor.png")}`,
       name: "Vijay Kapoor",
