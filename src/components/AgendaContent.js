@@ -40,8 +40,8 @@ const day1 = {
     },
     {
       time: "01:30 PM - 02:00 PM",
-      title: "Visionary Thinking Framework",
-      speakers: [{ name: "Dharaneetharan G D", role: "Founder & CEO, Social Eagle" }],
+      title: "A2Bயின் சவால்களும் சாதனைகளும்",
+      speakers: [{ name: "KT Srinivasa Raja", role: "Managing Director, Adyar Ananda Bhavan" }],
     },
     {
       time: "02:00 PM - 02:10 PM",
@@ -55,7 +55,7 @@ const day1 = {
     },
     {
       time: "02:20 PM - 02:50 PM",
-      title: "The Growth Story of Cookd",
+      title: "Fireside Chat with Aathitiyan ft. Vishnu Hari",
       speakers: [{ name: "Aathitiyan V S", role: "Founder & CEO, Cookd" }],
     },
     {
@@ -152,23 +152,13 @@ const day2 = {
       speakers: [{ name: "Vijay Kapoor", role: "Founder & MD, Derby Jeans Community" }],
     },
     {
-      time: "04:35 PM - 05:05 PM",
-      title: "A2Bயின் சவால்களும் சாதனைகளும்",
-      speakers: [{ name: "KT Srinivasa Raja", role: "Managing Director, Adyar Ananda Bhavan" }],
-    },
-    {
-      time: "05:05 PM - 05:15 PM",
+      time: "04:35 PM - 04:45 PM",
       title: "What 30 days can do?",
       speakers: [{ name: "Pranav S", role: "Founder, Schlora" }],
     },
     {
-      time: "05:15 PM - 05:45 PM",
-      title: "Your Next One Year",
-      speakers: [{ name: "Dharaneetharan G D", role: "Founder & CEO, Social Eagle" }],
-    },
-    {
-      time: "05:45 PM - 06:00 PM",
-      title: "Closing Note",
+      time: "04:45 PM - 06:00 PM",
+      title: "Visionary Thinking, Your Next One Year & Closing Note",
       speakers: [{ name: "Dharaneetharan G D", role: "Founder & CEO, Social Eagle" }],
     },
   ],
